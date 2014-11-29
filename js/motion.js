@@ -19,7 +19,7 @@ var main = function(){
 			$('.showAll').removeClass('showAllIn').addClass('showAllOut')
 		}
 		else{
-			$('.timeline').animate({left:"-400px"},200);
+			$('.timeline').animate({left:"-625px"},200);
 			$('.search').removeClass('searchOut').addClass('searchIn');
 			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
 			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
@@ -135,6 +135,12 @@ var main = function(){
 		nextSelection.addClass('active-selection')
 		currentTodayNews.removeClass('active-news')
 		nextTodayNews.addClass('active-news')
+
+		var lastClick = $('.selectClick')
+		lastClick.removeClass('selectClick')
+		$('.show').addClass('selectClick')
+
+
 	})
 
 	$('.topic').click(function(){
@@ -150,6 +156,11 @@ var main = function(){
 		nextSelection.addClass('active-selection')
 		currentTodayNews.removeClass('active-news')
 		nextTodayNews.addClass('active-news')
+
+		var lastClick = $('.selectClick')
+		lastClick.removeClass('selectClick')
+		$('.show').addClass('selectClick')
+
 	})
 
 	$('.trending').click(function(){
@@ -165,6 +176,11 @@ var main = function(){
 		nextSelection.addClass('active-selection')
 		currentTodayNews.removeClass('active-news')
 		nextTodayNews.addClass('active-news')
+
+		var lastClick = $('.selectClick')
+		lastClick.removeClass('selectClick')
+		$('.show').addClass('selectClick')
+
 	})
 
 

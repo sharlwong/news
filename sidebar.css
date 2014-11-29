@@ -69,7 +69,7 @@
 
 .searchOut{
 	text-align: center;
-	width:750px;
+	width:975px;
 	height:147px;
 }
 
@@ -155,7 +155,7 @@
 
 .todayNews{
 	height:30px;
-	width:750px;
+	width:975px;
 	background-color: white;
 	float: left;
 	margin-bottom: 20px;
@@ -164,12 +164,12 @@
 
 .todayNews .contain{
 	margin-right: 20px;
-	margin-left: 445px;
+	margin-left: 670px;
 	margin-top:15px;
 }
 
 .history{
-	width:750;
+	width:975;
 	height:450;
 	background-color: white;
 	float:left;
@@ -179,7 +179,7 @@
 
 .boxes{
 	background-color: green;
-	width:380px;
+	width:605px;
 	height:450px;
 	/*display: inline-block;*/
 	/*margin-right: 30px;*/
@@ -215,16 +215,16 @@
 .timeLine{
 	top: 0px;
 	position: fixed;
-	width:800px;
+	width:1025px;
 	height: 650px;
-	left:-400px;
+	left:-625px;
 	z-index: 99999;
 	/*left:0px;*/
 	/*background-color: grey;*/
 }
 
 .timeLinePanel{
-	width:750px;
+	width:975px;
 	height: 650px;
 	background-color: white;
 	float: left;
