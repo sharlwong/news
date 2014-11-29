@@ -109,14 +109,11 @@ body{
 	/*border-bottom: 1px solid #ddd;
 	border-top: 1px solid #ddd;*/
 	width: 750px;
-<<<<<<< Updated upstream
-	height: 60px;
-	margin-top: 10px;
-=======
 	height:80px;
 	margin-top: 5px;
 	margin-left: 2px;
 }
+
 
 .publish p{
 	font: 12px Merriweather, sans-serif;
@@ -126,7 +123,6 @@ body{
 .socialmedia {
 	/*padding: 5px;*/
 	float: right;
->>>>>>> Stashed changes
 }
 
 #dock-container{
@@ -238,6 +234,17 @@ figcaption {
 	background-color: lightgray;
 	font: 10px Merriweather, sans-serif;
 }
+
+figcaption {
+	position: relative;
+	width: 460px;
+	background-color: lightgray;
+	font: 10px Merriweather, sans-serif;
+}
+
+
+
+
 
 
 
