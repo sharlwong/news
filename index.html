@@ -2,35 +2,28 @@
 <html>
 	<head>
 		<title>The Chronicles</title>
-		<link rel="stylesheet" type="text/css" href="app.css">
-<!-- 		<link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
+		
+		<!-- Custom CSS -->
+		<link rel="stylesheet" type="text/css" href="sidebar.css">
+		<link rel="stylesheet" type="text/css" href="article.css">
+
+		<!-- Jquery and Bootstrap -->
+
 		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
-		<script type="text/javascript" src="js/motion.js"></script>
+		<link rel="stylesheet" href="http://necolas.github.com/normalize.css/2.0.1/normalize.css">
 
+		<!-- Font -->
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 
-		<link rel="stylesheet" href="http://necolas.github.com/normalize.css/2.0.1/normalize.css">
+		<!-- Javascript -->
+		<script type="text/javascript" src="js/motion.js"></script>
+		<script type="text/javascript" src="js/timeline.js"></script>
 		<link rel="stylesheet" type="text/css" href="jquery.bxslider.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
 		<script src="js/jquery-scrolltofixed-min.js" type="text/javascript"></script>
 		<script src="js/jquery.bxSlider.min.js" type="text/javascript"></script>
-		<script type="text/javascript">
-			$(document).ready(function() {
-  				$('.timelineNav').scrollToFixed();
-			});
 
-			$(document).ready(function(){
-				$('.slider1').bxSlider({
-					slideWidth: 200,
-					minSlides: 2,
-					maxSlides: 3,
-					slideMargin: 5,
-					pager: false
-				});
-			});
-		</script>
 	</head>
 	<body>
 		<div class='timeLine'>
@@ -69,12 +62,12 @@
 						</div>
 						<div class='locationsSelection'>
 							<ul>
-								<li class='choice'><img class="location-icon" src="images/Locations.png">SINGAPORE</li>
-								<li class='choice'><img class="location-icon" src="images/Locations.png">ASIA PACIFIC</li>
-								<li class='choice'><img class="location-icon" src="images/Locations.png">AFRICA</li>
-								<li class='choice'><img class="location-icon" src="images/Locations.png">AMERICA</li>
-								<li class='choice'><img class="location-icon" src="images/Locations.png">EUROPE</li>
-								<li class='choice'><img class="location-icon" src="images/Locations.png">MIDDLE EAST</li>
+								<li class='choice'><img src="images/Locations.png">SINGAPORE</li>
+								<li class='choice'><img src="images/Locations.png">ASIA PACIFIC</li>
+								<li class='choice'><img src="images/Locations.png">AFRICA</li>
+								<li class='choice'><img src="images/Locations.png">AMERICA</li>
+								<li class='choice'><img src="images/Locations.png">EUROPE</li>
+								<li class='choice'><img src="images/Locations.png">MIDDLE EAST</li>
 							</ul>
 						</div>
 
@@ -87,7 +80,7 @@
 					
 				</div>
 				<div class='todayNews'>
-					<div class='contain'>TODAY`S NEWS</div>
+					<div class='contain'>TODAY'S NEWS</div>
 				</div>
 				<div class='history'>
 					<div class='boxes'>
