@@ -1,6 +1,5 @@
 /*** Sidebar ***/
 
-
 /* Icons */
 
 .cat-icon {
@@ -80,7 +79,7 @@
 	padding-right: 20px;
 	/*display: none;*/
 }
-.topicSelection, .peopleSelection, .locationsSelection{
+.topicSelection, .trendingSelection, .locationsSelection{
 	display: none;
 }
 
@@ -202,4 +201,93 @@
 	margin-bottom: 20px;
 	margin-left: 40px;
 	color: #888888;
+}
+
+
+.trendingNews, .locationNews, .topicNews, .hideSth {
+	display: none;
+}
+
+.active-news{
+	display: block;
+}
+
+.timeLine{
+	top: 0px;
+	position: fixed;
+	width:800px;
+	height: 650px;
+	left:-400px;
+	z-index: 99999;
+	/*left:0px;*/
+	/*background-color: grey;*/
+}
+
+.timeLinePanel{
+	width:750px;
+	height: 650px;
+	background-color: white;
+	float: left;
+	/*box-shadow: */
+	box-shadow: 2px 2px 2px #888888;
+	/*border-top: 1px solid;*/
+	/*border-right: 1px solid;*/
+	border-bottom: 1px solid #888888;
+}
+
+.toggleArrow{
+	width: 50px;
+	height: 650px;
+	/*background-color: red;*/
+	float: left;
+
+}
+
+.toggleButton .arrowAppear{
+	display: inline-block;
+	margin-top: 26px;
+	margin-bottom: 20px;
+	color: #888888;
+	margin-left: 4px;
+	font-size: 40px;
+}
+
+.toggleButton .arrowDisappear{
+	display: none;
+	margin-top: 26px;
+	margin-bottom: 20px;
+	color: #888888;
+	margin-left: 4px;
+	font-size: 40px;
+}
+
+/*.arrowIn{
+	display: inline-block;
+}
+*/
+
+.toggleButton{
+	position: relative;
+	width:25px;
+	height: 100px;
+	margin-left: 0px;
+	background-color: white;
+	top:10px;
+	/*left: -10px;*/
+/*		border-right: 1px solid;
+		border-top: 1px solid;
+		border-bottom: 1px solid;*/
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top: 1px solid;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	box-shadow: 2px 2px 2px #888888;
+	border-color: #888888;
+}
+
+.panelIn{
+}
+
+.panelOut{
 }

@@ -1,5 +1,16 @@
 var main = function(){
 
+	var goOut = function(){
+		$('.timeline').animate({left:"0px"},200);
+		$('.search').removeClass('searchIn').addClass('searchOut');
+		$('.toggleButton').removeClass('panelIn').addClass('panelOut')
+		$('.showAll').removeClass('showAllIn').addClass('showAllOut')
+		$('.fa-angle-right').removeClass('arrowAppear').addClass('arrowDisappear')
+		$('.fa-angle-left').removeClass('arrowDisappear').addClass('arrowAppear')
+	}
+
+
+
 	$('.toggleButton').click(function(){
 		if ($('.toggleButton').hasClass('panelIn')){
 			$('.timeline').animate({left:"0px"},200);
@@ -26,24 +37,89 @@ var main = function(){
 	})
 
 
-
 	$('.choice').click(function(){
 		var thisClick = $(this)
 		var lastClick = $('.selectClick')
 		thisClick.addClass('selectClick')
 		lastClick.removeClass('selectClick')
-	})
+		goOut()
 
+		if(thisClick.hasClass('business')){
+			$('.active-news').children().addClass('hideSth')
+			$('.businessNews').removeClass('hideSth')
+		}
+		else if(thisClick.hasClass('lifestyle')){
+			$('.active-news').children().addClass('hideSth')
+			$('.lifestyleNews').removeClass('hideSth')
+		}
+		else if(thisClick.hasClass('technology')){
+			$('.active-news').children().addClass('hideSth')
+			$('.technologyNews').removeClass('hideSth')			
+		}
+		else if(thisClick.hasClass('politics')){
+			$('.active-news').children().addClass('hideSth')
+			$('.politicNews').removeClass('hideSth')			
+		}
+		else if(thisClick.hasClass('entertainment')){
+			$('.active-news').children().addClass('hideSth')
+			$('.entertainmentNews').removeClass('hideSth')			
+		}
+		else if(thisClick.hasClass('sport')){
+			$('.active-news').children().addClass('hideSth')
+			$('.sportNews').removeClass('hideSth')
+		}
+		else if(thisClick.hasClass('MH17')){
+			$('.active-news').children().addClass('hideSth')
+			$('.MH17News').removeClass('hideSth')			
+		}
+		else if(thisClick.hasClass('yew')){
+			$('.active-news').children().addClass('hideSth')
+			$('.yewNews').removeClass('hideSth')			
+		}
+		else if(thisClick.hasClass('obama')){
+			$('.active-news').children().addClass('hideSth')
+			$('.obamaNews').removeClass('hideSth')			
+		}
+		else if(thisClick.hasClass('jinping')){
+			$('.active-news').children().addClass('hideSth')
+			$('.jinpingNews').removeClass('hideSth')
+		}
+		else if(thisClick.hasClass('loong')){
+			$('.active-news').children().addClass('hideSth')
+			$('.loongNews').removeClass('hideSth')			
+		}
+		else if(thisClick.hasClass('MH370')){
+			$('.active-news').children().addClass('hideSth')
+			$('.MH370News').removeClass('hideSth')			
+		}
+		else if(thisClick.hasClass('singapore')){
+			$('.active-news').children().addClass('hideSth')
+			$('.singaporeNews').removeClass('hideSth')			
+		}
+		else if(thisClick.hasClass('pacific')){
+			$('.active-news').children().addClass('hideSth')
+			$('.pacificNews').removeClass('hideSth')
+		}
+		else if(thisClick.hasClass('africa')){
+			$('.active-news').children().addClass('hideSth')
+			$('.africaNews').removeClass('hideSth')			
+		}
+		else if(thisClick.hasClass('america')){
+			$('.active-news').children().addClass('hideSth')
+			$('.americaNews').removeClass('hideSth')			
+		}
+		else if(thisClick.hasClass('europe')){
+			$('.active-news').children().addClass('hideSth')
+			$('.europeNews').removeClass('hideSth')			
+		}
+		else if(thisClick.hasClass('east')){
+			$('.active-news').children().addClass('hideSth')
+			$('.eastNews').removeClass('hideSth')
+		}
+		else if(thisClick.hasClass('show')){
+			$('.active-news').children().removeClass('hideSth')
+		}
 
-	$('.topic').click(function(){
-		var currentGeneral = $('.active-general')
-		var nextGeneral = $('.topic')
-		var currentSelection = $('.active-selection')
-		var nextSelection = $('.topicSelection')
-		currentGeneral.removeClass('active-general')
-		nextGeneral.addClass('active-general')
-		currentSelection.removeClass('active-selection')
-		nextSelection.addClass('active-selection')
 	})
 
 	$('.locations').click(function(){
@@ -51,21 +127,44 @@ var main = function(){
 		var nextGeneral = $('.locations')
 		var currentSelection = $('.active-selection')
 		var nextSelection = $('.locationsSelection')
+		var currentTodayNews = $('.active-news')
+		var nextTodayNews = $('.locationNews')
 		currentGeneral.removeClass('active-general')
 		nextGeneral.addClass('active-general')
 		currentSelection.removeClass('active-selection')
 		nextSelection.addClass('active-selection')
+		currentTodayNews.removeClass('active-news')
+		nextTodayNews.addClass('active-news')
 	})
 
-	$('.people').click(function(){
+	$('.topic').click(function(){
 		var currentGeneral = $('.active-general')
-		var nextGeneral = $('.people')
+		var nextGeneral = $('.topic')
 		var currentSelection = $('.active-selection')
-		var nextSelection = $('.peopleSelection')
+		var nextSelection = $('.topicSelection')
+		var currentTodayNews = $('.active-news')
+		var nextTodayNews = $('.topicNews')
 		currentGeneral.removeClass('active-general')
 		nextGeneral.addClass('active-general')
 		currentSelection.removeClass('active-selection')
 		nextSelection.addClass('active-selection')
+		currentTodayNews.removeClass('active-news')
+		nextTodayNews.addClass('active-news')
+	})
+
+	$('.trending').click(function(){
+		var currentGeneral = $('.active-general')
+		var nextGeneral = $('.trending')
+		var currentSelection = $('.active-selection')
+		var nextSelection = $('.trendingSelection')
+		var currentTodayNews = $('.active-news')
+		var nextTodayNews = $('.trendingNews')
+		currentGeneral.removeClass('active-general')
+		nextGeneral.addClass('active-general')
+		currentSelection.removeClass('active-selection')
+		nextSelection.addClass('active-selection')
+		currentTodayNews.removeClass('active-news')
+		nextTodayNews.addClass('active-news')
 	})
 
 
@@ -77,9 +176,10 @@ var main = function(){
 		$(this).css('border-bottom','2px solid')},function(){$(this).css('border-bottom','0px')}
 	)
 
-	$('.people').hover(function(){
+	$('.trending').hover(function(){
 		$(this).css('border-bottom','2px solid')},function(){$(this).css('border-bottom','0px')}
 	)
+
 
 }
 
