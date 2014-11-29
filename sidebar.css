@@ -13,20 +13,21 @@
 
 /*** Sidebar layout ***/
 
+
 .timeLine{
 	font-size: 14px;
 	top: 0px;
 	position: fixed;
-	width:1000px;
+	width:1025px;
 	height: 650px;
-	left:-400px;
+	left:-625px;
 	z-index: 99999;
 	/*left:0px;*/
 	/*background-color: grey;*/
 }
 
 .timeLinePanel{
-	width:750px;
+	width:975px;
 	height: 650px;
 	background-color: white;
 	float: left;
@@ -249,7 +250,7 @@
 .todayNews .contain{
 	margin-right: 20px;
 	margin-left: 670px;
-	margin-top:15px;
+	margin-top: 20px;
 }
 
 .category{
@@ -257,8 +258,9 @@
 }
 
 .history{
-	width:975;
-	height:450;
+	font-weight: 300;
+	width:975px;
+	height:400px;
 	background-color: white;
 	float:left;
 	overflow: scroll;
@@ -277,13 +279,13 @@
 .today{
 	/*background-color: blue;*/
 	width: 350px;
-	height:450px;
+	height:405px;
 	/*display: inline-block;*/
 	float: left;
 }
 
 .today .item{
-	border-left: 5px solid;
+	border-left: 3px solid;
 	padding-left:20px;
 	padding-right:20px;
 	margin-bottom: 20px;
@@ -300,82 +302,3 @@
 	display: block;
 }
 
-.timeLine{
-	top: 0px;
-	position: fixed;
-	width:1025px;
-	height: 650px;
-	left:-625px;
-	z-index: 99999;
-	/*left:0px;*/
-	/*background-color: grey;*/
-}
-
-.timeLinePanel{
-	width:975px;
-	height: 650px;
-	background-color: white;
-	float: left;
-	/*box-shadow: */
-	box-shadow: 2px 2px 2px #888888;
-	/*border-top: 1px solid;*/
-	/*border-right: 1px solid;*/
-	border-bottom: 1px solid #888888;
-}
-
-.toggleArrow{
-	width: 50px;
-	height: 650px;
-	/*background-color: red;*/
-	float: left;
-
-}
-
-.toggleButton .arrowAppear{
-	display: inline-block;
-	margin-top: 26px;
-	margin-bottom: 20px;
-	color: #888888;
-	margin-left: 4px;
-	font-size: 40px;
-}
-
-.toggleButton .arrowDisappear{
-	display: none;
-	margin-top: 26px;
-	margin-bottom: 20px;
-	color: #888888;
-	margin-left: 4px;
-	font-size: 40px;
-}
-
-/*.arrowIn{
-	display: inline-block;
-}
-*/
-
-.toggleButton{
-	position: relative;
-	width:25px;
-	height: 100px;
-	margin-left: 0px;
-	background-color: white;
-	top:10px;
-	/*left: -10px;*/
-/*		border-right: 1px solid;
-		border-top: 1px solid;
-		border-bottom: 1px solid;*/
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
-	border-top: 1px solid;
-	border-right: 1px solid;
-	border-bottom: 1px solid;
-	box-shadow: 2px 2px 2px #888888;
-	border-color: #888888;
-}
-
-.panelIn{
-}
-
-.panelOut{
-}
