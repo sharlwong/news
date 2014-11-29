@@ -50,6 +50,22 @@
 	font-family: 'Merriweather', serif;
 }
 
+.topicNews {
+	display: none;
+}
+
+.locationNews {
+	display: none;
+}
+
+.trendingNews {
+	display: none;
+}
+
+.active-news{
+	display: block;
+}
+
 
 .timeLine{
 	position: fixed;
@@ -195,6 +211,11 @@
 	height:130px;
 }
 
+.hideSth{
+	display: none;
+}
+
+
 .selection{
 	/*background-color: blue;*/
 	padding-left: 40px;
@@ -204,7 +225,7 @@
 .topicSelection{
 	display: none;
 }
-.peopleSelection{
+.trendingSelection{
 	display: none;
 }
 .locationsSelection{
