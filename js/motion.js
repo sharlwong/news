@@ -183,6 +183,62 @@ var main = function(){
 
 	})
 
+	$('.headlight1').click(function(){
+		var currentHeadlight = $('.active-headlight')
+		var nextHeadlight = $('.headlight1')
+		
+		var currentTitle = $('.active-title')
+		var nextTitle = $('.title1')
+
+		var currentPublish = $('.active-publish')
+		var nextPublish = $('.publish1')
+
+		var currentStorySummary = $('.active-storySummary')
+		var nextStorySummary = $('.storySummary1')
+
+		var currentStory = $('.active-story')
+		var nexxtStory = $('.story1')
+
+		currentHeadlight.removeClass('active-headlight')
+		nextHeadlight.addClass('active-headlight')
+		currentTitle.removeClass('active-title')
+		nextTitle.addClass('active-title')
+		currentPublish.removeClass('active-publish')
+		nextPublish.addClass('active-publish')
+		currentStorySummary.removeClass('active-storySummary')
+		nextStorySummary.addClass('active-storySummary')
+		currentStory.removeClass('active-story')
+		nexxtStory.addClass('active-story')
+	})
+
+	$('.headlight2').click(function(){
+		var currentHeadlight = $('.active-headlight')
+		var nextHeadlight = $('.headlight2')
+		
+		var currentTitle = $('.active-title')
+		var nextTitle = $('.title2')
+
+		var currentPublish = $('.active-publish')
+		var nextPublish = $('.publish2')
+
+		var currentStorySummary = $('.active-storySummary')
+		var nextStorySummary = $('.storySummary2')
+
+		var currentStory = $('.active-story')
+		var nexxtStory = $('.story2')
+
+		currentHeadlight.removeClass('active-headlight')
+		nextHeadlight.addClass('active-headlight')
+		currentTitle.removeClass('active-title')
+		nextTitle.addClass('active-title')
+		currentPublish.removeClass('active-publish')
+		nextPublish.addClass('active-publish')
+		currentStorySummary.removeClass('active-storySummary')
+		nextStorySummary.addClass('active-storySummary')
+		currentStory.removeClass('active-story')
+		nexxtStory.addClass('active-story')
+	})
+
 
 	$('.topic').hover(function(){
 		$(this).css('border-bottom','2px solid')},function(){$(this).css('border-bottom','0px')}
