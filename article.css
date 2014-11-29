@@ -184,14 +184,15 @@ body{
 .storySummary p{
 	position: relative;
 	top: 8px;
-	left: 23px;
-	font: italic 14px Merriweather, sans-serif;
+	left: 3px;
+	font: bold 14px Merriweather, sans-serif;
 }
 
 .storySummary li{
 	position: relative;
 	top: 0px;
 	left: 8px;
+	margin-right: 5px;
 	font: italic 14px Merriweather, sans-serif;
 	line-height: 150%;
 }
