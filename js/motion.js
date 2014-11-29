@@ -135,6 +135,9 @@ var main = function(){
 		nextSelection.addClass('active-selection')
 		currentTodayNews.removeClass('active-news')
 		nextTodayNews.addClass('active-news')
+		$('.active-news').children().removeClass('hideSth')
+		$('.selectClick').removeClass('selectClick')
+		$('.show').addClass('selectClick')
 	})
 
 	$('.topic').click(function(){
@@ -150,6 +153,9 @@ var main = function(){
 		nextSelection.addClass('active-selection')
 		currentTodayNews.removeClass('active-news')
 		nextTodayNews.addClass('active-news')
+		$('.active-news').children().removeClass('hideSth')
+		$('.selectClick').removeClass('selectClick')
+		$('.show').addClass('selectClick')
 	})
 
 	$('.trending').click(function(){
@@ -165,6 +171,9 @@ var main = function(){
 		nextSelection.addClass('active-selection')
 		currentTodayNews.removeClass('active-news')
 		nextTodayNews.addClass('active-news')
+		$('.active-news').children().removeClass('hideSth')
+		$('.selectClick').removeClass('selectClick')
+		$('.show').addClass('selectClick')
 	})
 
 
