@@ -47,11 +47,11 @@ body{
 	margin-top: 10px;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
-	font-size: 54px;
+	font-size: 58px;
 }
 
 .header p{
-	margin-top: 0px;
+	margin-top: -8px;
 	font: 12px Merriweather, sans-serif;
 }
 
@@ -63,7 +63,7 @@ body{
 	float: right;
 }
 
-.category{
+.categorytag{
 	/*position: absolute;*/
 	/*display: inline-block;*/
 	background-color: white;
@@ -73,12 +73,12 @@ body{
 	height:30px;
 }	
 
-.category p{
+.categorytag p{
 	
 	margin-top: -10px;
 }
 
-.category ul{
+.categorytag ul{
 	display: inline;
 	margin-right: 0px;
 	padding-left: 0px;
@@ -168,17 +168,12 @@ body{
 	position: -webkit-sticky;
 }
 
-/* THIN */
 .storySummary{
-	/*position: absolute;*/
-	/*display: inline-block;*/
-	background-color: gainsboro;
-	/*border-bottom: 1px solid #ddd;
-	border-top: 1px solid #ddd;*/
 	width: 750px;
-	height:110px;
 	margin-top: 5px;
+	padding-bottom: 10px;
 	border-radius: 10px;
+	background-color: gainsboro;
 }
 
 .storySummary p{
@@ -190,24 +185,17 @@ body{
 
 .storySummary li{
 	position: relative;
-	margin-left: 4px;
+	margin-left: 12px;
 	margin-right: 8px;
-	top: 0px;
-	left: 8px;
-	margin-right: 5px;
 	font: italic 14px Merriweather, sans-serif;
 	line-height: 150%;
 }
 
 .story{
-	/*position: absolute;*/
-	/*display: inline-block;*/
 	background-color: white;
-	/*border-bottom: 1px solid #ddd;
-	border-top: 1px solid #ddd;*/
 	width: 750px;
-	height: 1500px;
 	margin-top: 10px;
+	margin-bottom: 10px;
 	font: 14px Merriweather, sans-serif;
 	line-height: 140%;
 }
@@ -238,25 +226,15 @@ figcaption {
 	font: 10px Merriweather, sans-serif;
 }
 
-.title1, .title2, .publish1, .publish2, .storySummary1, .storySummary2, .story1, .story2 {
+.article1_1, .article2_1, .article2_2 {
 	display: none;
 }
 
-.active-title {
+
+.active-article {
 	display: block;
 }
 
-.active-publish {
-	display: block;
-}
-
-.active-storySummary {
-	display: block;
-}
-
-.active-story {
-	display: block;
-}
 
 
 

@@ -294,6 +294,18 @@
 	cursor: pointer;
 }
 
+.headlight a:visited {
+	color: black;
+}
+
+.headlight a:hover {
+	text-decoration: underline;
+}
+
+.headlight a:active {
+	text-decoration: underline;
+}
+
 
 .trendingNews, .locationNews, .topicNews, .hideSth {
 	display: none;
@@ -302,6 +314,7 @@
 .active-news{
 	display: block;
 }
+
 
 
 
