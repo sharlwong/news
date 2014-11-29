@@ -1,3 +1,25 @@
+/* Overall app css */
+
+body{
+	font-family: 'Merriweather', serif;
+}
+
+/* Sidebar */
+
+
+/* Icons */
+
+.cat-icon {
+	padding-top: 1px;
+}
+
+.location-icon{
+
+}
+
+#show_all{
+	padding-top: 4px;
+}
 
 .todayNews{
 	height:30px;
@@ -5,7 +27,7 @@
 	background-color: white;
 	float: left;
 	margin-bottom: 20px;
-	font-family: 'Merriweather', serif;
+	
 }
 
 .todayNews .contain{
@@ -47,11 +69,11 @@
 	margin-bottom: 20px;
 	margin-left: 40px;
 	color: #888888;
-	font-family: 'Merriweather', serif;
 }
 
 
 .timeLine{
+	top: 0px;
 	position: fixed;
 	width:800px;
 	height: 650px;
@@ -141,9 +163,8 @@
 }
 
 .general{
-	/*padding-top: 10px;*/
-	/*background-color: blue;*/
-	padding-left: 10px;
+	text-align: left;
+	padding-left: 30px;
 }
 
 
@@ -153,13 +174,11 @@
 }
 
 
-
 .general ul{
 	padding-left: 0px;
-	margin-top: 0px;
-	margin-bottom: 3px;
+	margin-top: 10px;
+	margin-bottom: 5px;
 	color: #888888;
-	font-family: 'Merriweather', serif;
 	/*list-style-type:circle;*/
 }
 
@@ -178,37 +197,32 @@
 	display: inline;
 	padding-left: 0px;
 	padding-right: 0px;
-	font-size: 18px;
+	font-size: 14px;
 	cursor:pointer;
 }
 
 .searchIn{
-	text-align: center;
+	text-align: left;
+	padding-left: 30px;
 	width:350px;
-	height:180px;
+	height:197px;
 	float: right;
 }
 
 .searchOut{
 	text-align: center;
 	width:750px;
-	height:130px;
+	height:147px;
 }
 
 .selection{
 	/*background-color: blue;*/
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 30px;
+	padding-right: 20px;
 	/*display: none;*/
 }
-.topicSelection{
+.topicSelection, .peopleSelection, .locationsSelection{
 	display: none;
-}
-.peopleSelection{
-	display: none;
-}
-.locationsSelection{
-	display: none;	
 }
 
 .active-selection{
@@ -227,15 +241,15 @@
 	display: inline-block;
 	margin-top: 3px;
 	margin-bottom: 3px;
+	margin-right: 2px;
 /*	padding-top: 3px;
 	padding-bottom: 3px;*/
-	padding-left: 10px;
+	padding-left: 9px;
 	padding-right: 10px;
-	padding-top: 1.7px;
-	padding-bottom: 1.3px;
+	padding-top: 5px;
+	padding-bottom: 4px;
 	background-color: #888888;
-	font-family: 'Merriweather', serif;
-	font-size: 15px;
+	font-size: 14px;
 	color: white;
 	cursor:pointer;
 }
@@ -249,42 +263,34 @@
 
 .showAll{
 	/*background-color: blue;*/
-	margin-top: 20px;
-	padding-left: 40px;	
-	padding-right: 40px;
+	margin-top: 8px;
 	position: absolute;
-	font-family: 'Merriweather', serif;
-	font-size: 15px;
+	font-size: 14px;	
 }
 
 .showAllIn{
-	top: 123px;
+	top: 140px;
 }
 
 .showAllOut{
-	top: 70px;
+	top: 87px;
 }
 
 
 .showAll ul{
-	padding-left: 0px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	text-align: left;
-	line-height: 28px;
 }
 
-.showAll li{
+/*.showAll li{
 	display: inline;
 	padding-top: 1.7px;
 	padding-bottom: 1.3px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 0px;
+	padding-right: 5px;
 	color: white;
 	background-color: #888888;
 	cursor: pointer;
 }
-
+*/
 
 .content{
 /*	display: inline-block;*/
@@ -297,6 +303,8 @@
 	/*background-color: red;*/
 	height: 1000px;
 }
+
+/* Article */
 
 
 .article{
@@ -474,7 +482,6 @@ img {
 	display: inline-block;
 	float: left;
 	margin-right: 10px;
-
 }
 
 
