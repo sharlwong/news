@@ -1,6 +1,6 @@
-/*** Sidebar ***/
+/***** Sidebar *****/
 
-/* Icons */
+/*** Icons ***/
 
 .cat-icon {
 	padding-top: 1px;
@@ -9,6 +9,93 @@
 #show_all{
 	padding-top: 4px;
 }
+
+
+/*** Sidebar layout ***/
+
+.timeLine{
+	font-size: 14px;
+	top: 0px;
+	position: fixed;
+	width:1000px;
+	height: 650px;
+	left:-400px;
+	z-index: 99999;
+	/*left:0px;*/
+	/*background-color: grey;*/
+}
+
+.timeLinePanel{
+	width:750px;
+	height: 650px;
+	background-color: white;
+	float: left;
+	/*box-shadow: */
+	box-shadow: 2px 2px 2px #888888;
+	/*border-top: 1px solid;*/
+	/*border-right: 1px solid;*/
+	border-bottom: 1px solid #888888;
+}
+
+.toggleArrow{
+	width: 50px;
+	height: 650px;
+	/*background-color: red;*/
+	float: left;
+
+}
+
+.toggleButton .arrowAppear{
+	display: inline-block;
+	margin-top: 26px;
+	margin-bottom: 20px;
+	color: #888888;
+	margin-left: 4px;
+	font-size: 40px;
+}
+
+.toggleButton .arrowDisappear{
+	display: none;
+	margin-top: 26px;
+	margin-bottom: 20px;
+	color: #888888;
+	margin-left: 4px;
+	font-size: 40px;
+}
+
+/*.arrowIn{
+	display: inline-block;
+}
+*/
+
+.toggleButton{
+	position: relative;
+	width:25px;
+	height: 100px;
+	margin-left: 0px;
+	background-color: white;
+	top:10px;
+	/*left: -10px;*/
+/*		border-right: 1px solid;
+		border-top: 1px solid;
+		border-bottom: 1px solid;*/
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top: 1px solid;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	box-shadow: 2px 2px 2px #888888;
+	border-color: #888888;
+}
+
+.panelIn{
+}
+
+.panelOut{
+}
+
+
+/*** Categorization ***/
 
 .search{
 	/*background: blue;*/
@@ -27,7 +114,7 @@
 
 
 .active-general{
-	font-weight: bold;
+	font-weight: 900;
 	color:black;
 }
 
@@ -55,7 +142,6 @@
 	display: inline;
 	padding-left: 0px;
 	padding-right: 0px;
-	font-size: 14px;
 	cursor:pointer;
 }
 
@@ -107,7 +193,6 @@
 	padding-top: 5px;
 	padding-bottom: 4px;
 	background-color: #888888;
-	font-size: 14px;
 	color: white;
 	cursor:pointer;
 }
@@ -123,7 +208,6 @@
 	/*background-color: blue;*/
 	margin-top: 8px;
 	position: absolute;
-	font-size: 14px;	
 }
 
 .showAllIn{
@@ -151,7 +235,7 @@
 */
 
 
-/* Today's News */
+/*** Today's News ***/
 
 .todayNews{
 	height:30px;
@@ -166,6 +250,10 @@
 	margin-right: 20px;
 	margin-left: 670px;
 	margin-top:15px;
+}
+
+.category{
+	font-style: italic;
 }
 
 .history{
