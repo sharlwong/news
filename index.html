@@ -1,36 +1,29 @@
 <!DOCTYPE>
 <html>
 	<head>
-		<title>Article Page</title>
-		<link rel="stylesheet" type="text/css" href="app.css">
-<!-- 		<link rel="stylesheet" type="text/css" href="bootstrap.css"> -->
+		<title>The Chronicles</title>
+		
+		<!-- Custom CSS -->
+		<link rel="stylesheet" type="text/css" href="sidebar.css">
+		<link rel="stylesheet" type="text/css" href="article.css">
+
+		<!-- Jquery and Bootstrap -->
+
 		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
-		<script type="text/javascript" src="js/motion.js"></script>
+		<link rel="stylesheet" href="http://necolas.github.com/normalize.css/2.0.1/normalize.css">
 
+		<!-- Font -->
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
 
-		<link rel="stylesheet" href="http://necolas.github.com/normalize.css/2.0.1/normalize.css">
+		<!-- Javascript -->
+		<script type="text/javascript" src="js/motion.js"></script>
+		<script type="text/javascript" src="js/timeline.js"></script>
 		<link rel="stylesheet" type="text/css" href="jquery.bxslider.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
 		<script src="js/jquery-scrolltofixed-min.js" type="text/javascript"></script>
 		<script src="js/jquery.bxSlider.min.js" type="text/javascript"></script>
-		<script type="text/javascript">
-			$(document).ready(function() {
-  				$('.timelineNav').scrollToFixed();
-			});
 
-			$(document).ready(function(){
-				$('.slider1').bxSlider({
-					slideWidth: 200,
-					minSlides: 2,
-					maxSlides: 3,
-					slideMargin: 5,
-					pager: false
-				});
-			});
-		</script>
 	</head>
 	<body>
 		<div class='timeLine'>
@@ -48,44 +41,45 @@
 					<div class='selection'>
 						<div class='topicSelection active-selection'>		
 							<ul>
-								<li class='choice business'>BUSINESS</li>
-								<li class='choice lifestyle'>LIFESTYLE</li>
-								<li class='choice technology'>TECHNOLOGY</li>
-								<li class='choice politics'>POLITICS</li>
-								<li class='choice entertainment'>ENTERTAINMENT</li>
-								<li class='choice sport'>SPORT</li>
+								<li class='choice business'><img class="cat-icon" src="images/Business.png">BUSINESS</li>
+								<li class='choice lifestyle'><img class="cat-icon" src="images/Lifestyle.png">LIFESTYLE</li>
+								<li class='choice technology'><img class="cat-icon" src="images/Technology.png">TECHNOLOGY</li>
+								<li class='choice politics'><img class="cat-icon" src="images/Politics.png">POLITICS</li>
+								<li class='choice entertainment'><img class="cat-icon" src="images/Entertainment.png">ENTERTAINMENT</li>
+								<li class='choice sport'><img class="cat-icon" src="images/Sports.png">SPORTS</li>
 							</ul>
 						</div>
 						<div class='trendingSelection'>		
 							<ul>
-								<li class='choice MH17'>MH17</li>
-								<li class='choice yew'>LEE KUEN YEW</li>								
-								<li class='choice obama'>OBAMA</li>
-								<li class='choice jinping'>XI JINPING</li>
-								<li class='choice loong'>LEE HSIEN LOONG</li>
-								<li class='choice MH370'>MH370</li>
 
+								<li class='choice MH17'><img class="cat-icon" src="images/Trending.png">MH17</li>
+								<li class='choice yew'><img class="cat-icon" src="images/Trending.png">LEE KUEN YEW</li>
+								<li class='choice obama'><img class="cat-icon" src="images/Trending.png">BARACK OBAMA</li>
+								<li class='choice jinping'><img class="cat-icon" src="images/Trending.png">XI JINPING</li>
+								<li class='choice loong'><img class="cat-icon" src="images/Trending.png">LEE HSIEN LOONG</li>
+								<li class='choice MH370'><img class="cat-icon" src="images/Trending.png">MH370</li>
 							</ul>
 						</div>
-						<div class='locationsSelection'>		
+						<div class='locationsSelection'>
 							<ul>
-								<li class='choice singarpore'>SINGARPORE</li>
-								<li class='choice pacific'>ASIA PACIFIC</li>
-								<li class='choice africa'>AFRICA</li>
-								<li class='choice america'>AMERICA</li>
-								<li class='choice europe'>EUROPE</li>
-								<li class='choice east'>MIDDLE EAST</li>
+								<li class='choice singarpore'><img src="images/Locations.png">SINGAPORE</li>
+								<li class='choice pacific'><img src="images/Locations.png">ASIA PACIFIC</li>
+								<li class='choice africa'><img src="images/Locations.png">AFRICA</li>
+								<li class='choice america'><img src="images/Locations.png">AMERICA</li>
+								<li class='choice europe'><img src="images/Locations.png">EUROPE</li>
+								<li class='choice east'><img src="images/Locations.png">MIDDLE EAST</li>
 							</ul>
 						</div>
-					</div>
-					<div class='showAll showAllIn'>
-						<ul>
-							<li class='choice show'>SHOW ALL</li>
-						</ul>
+
+						<div class='showAll showAllIn'>
+							<ul>
+								<li class='choice'><img id="show_all" src="images/Show_All.png">SHOW ALL</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 				<div class='todayNews'>
-					<div class='contain'>TODAY`S NEWS</div>
+					<div class='contain'>TODAY'S NEWS</div>
 				</div>
 				<div class='history'>
 					<div class='boxes'>
