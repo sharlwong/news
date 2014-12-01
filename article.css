@@ -91,7 +91,7 @@ body{
 	/*border-bottom: 1px solid #ddd;
 	border-top: 1px solid #ddd;*/
 	width: 750px;
-	height:30px;
+	/*height:30px;*/
 	margin-top: 10px;
 }
 
@@ -110,7 +110,7 @@ body{
 	border-top: 1px solid #ddd;*/
 	width: 750px;
 	height:80px;
-	margin-top: 5px;
+	margin-top: -10px;
 	margin-left: 2px;
 }
 
@@ -123,6 +123,7 @@ body{
 .socialmedia {
 	/*padding: 5px;*/
 	float: right;
+	margin-top: -5px;
 }
 
 #dock-container{
@@ -226,7 +227,8 @@ figcaption {
 	font: 10px Merriweather, sans-serif;
 }
 
-.article1_1, .article2_1, .article2_2, .article3_1 {
+.article1_1, .article2_1, .article2_2, .article3_1, 
+.article4_1, .article5_1, .article6 {
 	display: none;
 }
 

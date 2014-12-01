@@ -291,14 +291,12 @@
 	margin-bottom: 20px;
 	margin-left: 40px;
 	color: #888888;
+	/*color: black;*/
 	cursor: pointer;
 }
 
-.headlight a:visited {
-	color: black;
-}
-
 .headlight a:hover {
+	color: black;
 	text-decoration: underline;
 }
 
@@ -306,6 +304,10 @@
 	text-decoration: underline;
 }
 
+.active-headlight {
+	font-weight: 900;
+	color: black;
+}
 
 .trendingNews, .locationNews, .topicNews, .hideSth {
 	display: none;
@@ -314,6 +316,8 @@
 .active-news{
 	display: block;
 }
+
+
 
 
 
