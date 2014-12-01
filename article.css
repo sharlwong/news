@@ -33,12 +33,11 @@ body{
 	/*position: relative;*/
 	/*display: inline-block;*/
 	background-color: white;
-	border-bottom: 1px solid #ddd;
-	border-top: 1px solid #ddd;
+	border-bottom: 3px solid black;
+	/*border-top: 1px solid #ddd;*/
 	width: 750px;
-	height:100px;
+	height:125px;
 	/*position: relative;*/
-	text-align: center;
 	padding-top: 20px;
 	/*display: inline-block;*/
 }
@@ -46,33 +45,53 @@ body{
 /* THIN */
 .header h1{
 	margin-top: 10px;
-	font-family: 'Roboto', serif;
-	font-size: 44px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 58px;
 }
 
-.dateAndWeather{
+.header p{
+	margin-top: -8px;
+	font: 12px Merriweather, sans-serif;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.categorytag{
 	/*position: absolute;*/
 	/*display: inline-block;*/
-	background-color: grey;
-	border-bottom: 1px solid #ddd;
-	border-top: 1px solid #ddd;
+	background-color: white;
+	/*border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;*/
 	width: 750px;
-	height:20px;
-	margin-top: 10px;
+	height:30px;
 }	
 
-.dateAndWeather p{
-	margin: 0;
+.categorytag p{
+	
+	margin-top: -10px;
+}
+
+.categorytag ul{
+	display: inline;
+	margin-right: 0px;
+	padding-left: 0px;
 }
 
 .title{
 	/*position: absolute;*/
 	/*display: inline-block;*/
 	background-color: white;
-	border-bottom: 1px solid #ddd;
-	border-top: 1px solid #ddd;
+	/*border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;*/
 	width: 750px;
-	height:50px;
+	/*height:30px;*/
 	margin-top: 10px;
 }
 
@@ -80,18 +99,31 @@ body{
 .title p{
 	margin-top: 5px;
 	font-size: 30px;
-	font-style: italic;
+	font-style: bold;
 }
 
 .publish{
 	/*position: absolute;*/
 	/*display: inline-block;*/
-	background-color: grey;
-	border-bottom: 1px solid #ddd;
-	border-top: 1px solid #ddd;
+	background-color: white;
+	/*border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;*/
 	width: 750px;
-	height:60px;
-	margin-top: 10px;
+	height:80px;
+	margin-top: -10px;
+	margin-left: 2px;
+}
+
+
+.publish p{
+	font: 12px Merriweather, sans-serif;
+	line-height: 100%;
+}
+
+.socialmedia {
+	/*padding: 5px;*/
+	float: right;
+	margin-top: -5px;
 }
 
 #dock-container {
@@ -165,34 +197,35 @@ body{
 }
 
 .storySummary{
-	/*position: absolute;*/
-	/*display: inline-block;*/
-	background-color: white;
-	border-bottom: 1px solid #ddd;
-	border-top: 1px solid #ddd;
 	width: 750px;
-	height:100px;
-	margin-top: 10px;
+	margin-top: 5px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+	background-color: gainsboro;
 }
 
-/* THIN */
-.storySummary h4{
-	margin-top: 5px;
-}
-/* THIN*/
 .storySummary p{
-	margin-top: -10px;
+	position: relative;
+	top: 8px;
+	left: 10px;
+	font: bold 14px Merriweather, sans-serif;
+}
+
+.storySummary li{
+	position: relative;
+	margin-left: 12px;
+	margin-right: 8px;
+	font: italic 14px Merriweather, sans-serif;
+	line-height: 150%;
 }
 
 .story{
-	/*position: absolute;*/
-	/*display: inline-block;*/
 	background-color: white;
-	border-bottom: 1px solid #ddd;
-	border-top: 1px solid #ddd;
 	width: 750px;
-	height: 1500px;
 	margin-top: 10px;
+	margin-bottom: 10px;
+	font: 14px Merriweather, sans-serif;
+	line-height: 140%;
 }
 
 .sticky{
@@ -204,10 +237,31 @@ body{
 }
 
 /* THIN */
-img {
+figure {
 	display: inline-block;
 	float: left;
+}
+
+img{
 	margin-right: 10px;
+
+}
+
+figcaption {
+	position: relative;
+	width: 460px;
+	background-color: lightgray;
+	font: 10px Merriweather, sans-serif;
+}
+
+.article1_1, .article2_1, .article2_2, .article3_1, 
+.article4_1, .article5_1, .article6 {
+	display: none;
+}
+
+
+.active-article {
+	display: block;
 }
 
 .hot{

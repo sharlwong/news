@@ -187,6 +187,77 @@ var main = function(){
 
 	})
 
+	$('.headlight.1').click(function(){
+		var currentHeadlight = $('.active-headlight')
+		var nextHeadlight = $('.headlight.1')
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article1_1')
+
+		currentHeadlight.removeClass('active-headlight')
+		nextHeadlight.addClass('active-headlight')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
+	})
+
+	$('.headlight.2').click(function(){
+		var currentHeadlight = $('.active-headlight')
+		var nextHeadlight = $('.headlight.2')
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article2_1')
+
+		currentHeadlight.removeClass('active-headlight')
+		nextHeadlight.addClass('active-headlight')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
+	})
+
+	$('.headlight.3').click(function(){
+		var currentHeadlight = $('.active-headlight')
+		var nextHeadlight = $('.headlight.3')
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article3_1')
+
+		currentHeadlight.removeClass('active-headlight')
+		nextHeadlight.addClass('active-headlight')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
+	})
+
+	$('.headlight.4').click(function(){
+		var currentHeadlight = $('.active-headlight')
+		var nextHeadlight = $('.headlight.4')
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article4_1')
+
+		currentHeadlight.removeClass('active-headlight')
+		nextHeadlight.addClass('active-headlight')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
+	})
+
+	$('.headlight.5').click(function(){
+		var currentHeadlight = $('.active-headlight')
+		var nextHeadlight = $('.headlight.5')
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article5_1')
+
+		currentHeadlight.removeClass('active-headlight')
+		nextHeadlight.addClass('active-headlight')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
+	})
+
+	$('.headlight.6').click(function(){
+		var currentHeadlight = $('.active-headlight')
+		var nextHeadlight = $('.headlight.6')
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article6')
+
+		currentHeadlight.removeClass('active-headlight')
+		nextHeadlight.addClass('active-headlight')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
+	})
 
 	$('.topic').hover(function(){
 		$(this).css('border-bottom','2px solid')},function(){$(this).css('border-bottom','0px')}

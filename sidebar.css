@@ -290,8 +290,22 @@
 	margin-bottom: 20px;
 	margin-left: 40px;
 	color: #888888;
+	cursor: pointer;
 }
 
+.headlight a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.headlight a:active {
+	text-decoration: underline;
+}
+
+.active-headlight {
+	font-weight: 900;
+	color: black;
+}
 
 .trendingNews, .locationNews, .topicNews, .hideSth {
 	display: none;
@@ -491,3 +505,5 @@
 	width:170px;
 	height: 60px;
 }
+
+
