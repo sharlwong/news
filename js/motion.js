@@ -197,6 +197,8 @@ var main = function(){
 		nextHeadlight.addClass('active-headlight')
 		currentArticle.removeClass('active-article')
 		nextArticle.addClass('active-article')
+
+		window.scrollTo(0,0)
 	})
 
 	$('.headlight.2').click(function(){
@@ -209,6 +211,8 @@ var main = function(){
 		nextHeadlight.addClass('active-headlight')
 		currentArticle.removeClass('active-article')
 		nextArticle.addClass('active-article')
+
+		window.scrollTo(0,0)
 	})
 
 	$('.headlight.3').click(function(){
@@ -221,6 +225,8 @@ var main = function(){
 		nextHeadlight.addClass('active-headlight')
 		currentArticle.removeClass('active-article')
 		nextArticle.addClass('active-article')
+
+		window.scrollTo(0,0)
 	})
 
 	$('.headlight.4').click(function(){
@@ -233,6 +239,8 @@ var main = function(){
 		nextHeadlight.addClass('active-headlight')
 		currentArticle.removeClass('active-article')
 		nextArticle.addClass('active-article')
+
+		window.scrollTo(0,0)
 	})
 
 	$('.headlight.5').click(function(){
@@ -245,6 +253,8 @@ var main = function(){
 		nextHeadlight.addClass('active-headlight')
 		currentArticle.removeClass('active-article')
 		nextArticle.addClass('active-article')
+
+		window.scrollTo(0,0)
 	})
 
 	$('.headlight.6').click(function(){
@@ -257,6 +267,8 @@ var main = function(){
 		nextHeadlight.addClass('active-headlight')
 		currentArticle.removeClass('active-article')
 		nextArticle.addClass('active-article')
+
+		window.scrollTo(0,0)
 	})
 
 	$('.topic').hover(function(){
