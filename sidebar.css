@@ -405,7 +405,7 @@
 .pastBox{
 	margin-top: 30px;
 	width:600px;
-	height:450px;
+	/*height:450px;*/
 	float: left;
 }
 
@@ -424,7 +424,7 @@
 	width:80px;
 	height:450px;
 	color:green;
-	float: left;	
+	float: left;
 }
 
 
@@ -465,7 +465,7 @@
 }
 
 .expandTodayNews1{
-	height:50px;
+	height:54px;
 	width:500px;
 }
 
@@ -490,4 +490,46 @@
 .piece img{
 	width:170px;
 	height: 60px;
+	display: block;
+}
+
+.slideImg img{
+	width:170px;
+	height: 60px;
+	float: right;
+		/*overflow: hidden;*/
+}
+
+.slide1{
+	padding-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 64px;
+	display: none;
+	/*overflow: hidden;*/
+	
+	/*float: right;*/
+}
+
+.slide2{
+	padding-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 64px;
+	display: none;
+	
+	/*float: right;*/
+}
+
+.active-slide{
+	display: block;
+}
+
+
+.expandHistory .active-box{
+	display: block;
+}
+
+.topicBox, .locationBox, .trendingBox{
+	display: none;
 }

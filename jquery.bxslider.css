@@ -19,11 +19,12 @@
 	margin: 0 auto 60px;
 	padding: 0;
 	*zoom: 1;
+	/*height: 70px;*/
 }
 
 .bx-wrapper img {
-	width: 200px;
-	height: 100px;
+	width: 170px;
+	height: 60px;
 	display: block;
 }
 
@@ -44,6 +45,7 @@
 	-ms-transform: translatez(0);
 	-o-transform: translatez(0);
 	transform: translatez(0);
+	/*height: 65px;*/
 }
 
 .bx-wrapper .bx-pager,
