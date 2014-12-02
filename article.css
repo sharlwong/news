@@ -130,7 +130,9 @@ body{
 
 #dock-container {
 	font: Helvetica, Arial, sans-serif;
-	font-size: 12px;}
+	font-size: 12px;
+	padding-left: 0px;
+}
 #dock-container li {
      float: left;
      list-style-type: none;
@@ -144,7 +146,7 @@ body{
      border: 0;
      width: 68px;
 }
-#dock-container p {
+/*#dock-container p {
      background: #000;
      border-radius: 8px;
      -moz-border-radius: 8px;
@@ -163,28 +165,28 @@ body{
      -moz-transform: rotate(45deg);
      -o-transform: rotate(45deg);
      -webkit-transform: rotate(45deg);
-}
+}*/
 #dock-container img, #dock-container p {
      -moz-transition: all .4s ease-in-out;
      -o-transition: all .4s ease-in-out;
      -webkit-transition: all .4s ease-in-out;
 }
-#dock-container p, #dock-container div {
+/*#dock-container p, #dock-container div {
      -moz-transition: opacity .1s ease-in-out;
      -o-transition: opacity .1s ease-in-out;
      -webkit-transition: opacity .1s ease-in-out;
-}
+}*/
 #dock-container a:hover > img {
-     -moz-transform: scale(2.5);
-     -o-transform: scale(2.5);
-     -webkit-transform: scale(2.5);
+     -moz-transform: scale(2.7);
+     -o-transform: scale(2.7);
+     -webkit-transform: scale(2.7);
 }
-#dock-container p, #dock-container div {
+/*#dock-container p, #dock-container div {
      opacity: 0;
 }
 #dock-container a:hover > div, #dock-container a:hover > p {
      opacity: 0;
-}
+}*/
 
 .timelineNav{
 	/*position: absolute;*/
