@@ -168,7 +168,7 @@ var main = function(){
 		lastClick.removeClass('selectClick')
 		$('.show').addClass('selectClick')
 
-
+		$('.slider').removeClass('hideSth')
 	})
 
 	$('.topic').click(function(){
@@ -189,6 +189,8 @@ var main = function(){
 		lastClick.removeClass('selectClick')
 		$('.show').addClass('selectClick')
 
+		$('.slider').removeClass('hideSth')
+
 	})
 
 	$('.trending').click(function(){
@@ -208,6 +210,8 @@ var main = function(){
 		var lastClick = $('.selectClick')
 		lastClick.removeClass('selectClick')
 		$('.show').addClass('selectClick')
+
+		$('.slider').removeClass('hideSth')
 
 	})
 
@@ -320,8 +324,12 @@ var main = function(){
         var nextSlide = currentSlide.next();
         if( nextSlide.length === 0){
         currentSlide.removeClass('active-slide');           
-        $('.slide1').first().addClass('active-slide');
-         $('.slide2').first().addClass('active-slide');
+	        $('.slideA1').first().addClass('active-slide');
+	        $('.slideA2').first().addClass('active-slide');
+	        $('.slideB1').first().addClass('active-slide');
+	        $('.slideB2').first().addClass('active-slide');
+	        $('.slideC1').first().addClass('active-slide');
+	        $('.slideC2').first().addClass('active-slide');	        
         }
         else{
         currentSlide.removeClass('active-slide');
@@ -334,8 +342,12 @@ var main = function(){
         var prevSlide = currentSlide.prev();
         if( prevSlide.length === 0){
         currentSlide.removeClass('active-slide');           
-        $('.slide1').last().addClass('active-slide');
-         $('.slide2').first().addClass('active-slide');
+	        $('.slideA1').last().addClass('active-slide');
+	        $('.slideA2').last().addClass('active-slide');
+	        $('.slideB1').last().addClass('active-slide');
+	        $('.slideB2').last().addClass('active-slide');
+	        $('.slideC1').last().addClass('active-slide');
+	        $('.slideC2').last().addClass('active-slide');	 
         }
         else{
         currentSlide.removeClass('active-slide');

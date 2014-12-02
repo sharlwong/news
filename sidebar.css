@@ -262,7 +262,7 @@
 	background-color: white;
 	float:left;
 	overflow: scroll;
-	display: none;
+	/*display: none;*/
 }
 
 
@@ -318,7 +318,8 @@
 .timeLine{
 	top: 0px;
 	position: fixed;
-	width:1025px;
+	/*width:1025px;*/
+	width:1100px;
 	height: 650px;
 	left:-625px;
 	z-index: 99999;
@@ -395,19 +396,19 @@
 .panelOut{
 }
 
-.timeLinePanel .active-history{
+/*.timeLinePanel .active-history{
 	display: block;
-}
+}*/
 
 
-.expandHistory{
+/*.expandHistory{
 	width:975px;
 	height: 450px;
-	/*color:black;*/
+	color:black;
 	float: left;
 	overflow: scroll;
 	display: none;
-}
+}*/
 
 .arrowBtnLeft{
 	width:60px;
@@ -514,9 +515,8 @@
 		/*overflow: hidden;*/
 }
 
-.slide1{
+.slideA1, .slideA2, .slideB1, .slideB2, .slideC1, .slideC2{
 	padding-left: 50px;
-	margin-top: 10px;
 	margin-bottom: 10px;
 	height: 64px;
 	display: none;
@@ -525,22 +525,13 @@
 	/*float: right;*/
 }
 
-.slide2{
-	padding-left: 50px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	height: 64px;
-	display: none;
-	
-	/*float: right;*/
-}
 
 .active-slide{
 	display: block;
 }
 
 
-.expandHistory .active-box{
+.boxes .active-box{
 	display: block;
 }
 
