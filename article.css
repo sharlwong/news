@@ -24,8 +24,7 @@ body{
 	margin-left: 30px;
 	margin-right: 30px;
 	/*display: inline-block;*/
-	/*float: left;*/
-	float: right;
+	float: left;
 	/*position: relative;*/
 	width: 750px;
 	height: 1000px;
@@ -146,47 +145,18 @@ body{
      border: 0;
      width: 68px;
 }
-/*#dock-container p {
-     background: #000;
-     border-radius: 8px;
-     -moz-border-radius: 8px;
-     margin: 0;
-     position: relative;
-     padding: 2px 4px;
-     z-index: 100;
-}
-#dock-container div {
-     background: #000;
-     width: 10px;
-     height: 10px;
-     margin: 0 auto;
-     position: relative;
-     bottom: 20px;
-     -moz-transform: rotate(45deg);
-     -o-transform: rotate(45deg);
-     -webkit-transform: rotate(45deg);
-}*/
+
 #dock-container img, #dock-container p {
      -moz-transition: all .4s ease-in-out;
      -o-transition: all .4s ease-in-out;
      -webkit-transition: all .4s ease-in-out;
 }
-/*#dock-container p, #dock-container div {
-     -moz-transition: opacity .1s ease-in-out;
-     -o-transition: opacity .1s ease-in-out;
-     -webkit-transition: opacity .1s ease-in-out;
-}*/
+
 #dock-container a:hover > img {
      -moz-transform: scale(2.7);
      -o-transform: scale(2.7);
      -webkit-transform: scale(2.7);
 }
-/*#dock-container p, #dock-container div {
-     opacity: 0;
-}
-#dock-container a:hover > div, #dock-container a:hover > p {
-     opacity: 0;
-}*/
 
 .timelineNav{
 	/*position: absolute;*/
@@ -198,6 +168,11 @@ body{
 	height:	120px;
 	margin-top: 0px;
 	/*position: -webkit-sticky;*/
+}
+
+.timelineNav p{
+	font-size: 12px;
+	font-weight: bold;
 }
 
 .storySummary{
