@@ -6,7 +6,7 @@ var main = function(){
 
 
 	var goOut = function(){
-		$('.timeline').animate({left:"0px"},200);
+		$('.timeline').animate({left:"0px"},400);
 		$('.search').removeClass('searchIn').addClass('searchOut');
 		$('.toggleButton').removeClass('panelIn').addClass('panelOut')
 		$('.showAll').removeClass('showAllIn').addClass('showAllOut')
@@ -18,7 +18,7 @@ var main = function(){
 
 	$('.toggleButton').click(function(){
 		if ($('.toggleButton').hasClass('panelIn')){
-			$('.timeline').animate({left:"0px"},200);
+			$('.timeline').animate({left:"0px"},400);
 			$('.search').removeClass('searchIn').addClass('searchOut');
 			$('.toggleButton').removeClass('panelIn').addClass('panelOut')
 			$('.showAll').removeClass('showAllIn').addClass('showAllOut')
@@ -26,7 +26,7 @@ var main = function(){
 			$('.expandHistory').addClass('active-history')
 		}
 		else{
-			$('.timeline').animate({left:"-625px"},200);
+			$('.timeline').animate({left:"-625px"},400);
 			$('.search').removeClass('searchOut').addClass('searchIn');
 			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
 			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
