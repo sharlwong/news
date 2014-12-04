@@ -116,6 +116,7 @@ body{
 	height:80px;
 	margin-top: -10px;
 	margin-left: 2px;
+	display: none;
 }
 
 
@@ -208,6 +209,7 @@ body{
 	padding-bottom: 10px;
 	border-radius: 10px;
 	background-color: gainsboro;
+	display: none;
 }
 
 .storySummary p{
@@ -229,6 +231,7 @@ body{
 	margin-bottom: 10px;
 	font: 14px Merriweather, sans-serif;
 	line-height: 140%;
+	display: none;
 }
 
 .sticky{
@@ -268,6 +271,16 @@ figcaption {
 .active-title {
 	display: block;
 }
+.active-publish {
+	display: block;
+}
+.active-summary {
+	display: block;
+}
+.active-story {
+	display: block;
+}
+
 
 .hot{
 }

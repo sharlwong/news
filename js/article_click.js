@@ -67,6 +67,20 @@ var article = function(){
 		currentArticle.removeClass('active-article')
 		nextArticle.addClass('active-article')
 
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$('.hot.5_4').removeClass('notDark').addClass('dark')
+		$('.hot.5_4').next().removeClass('dark').addClass('notDark')
+
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.5_4').addClass('active-title')
+		$('.publish.5_4').addClass('active-publish')
+		$('.storySummary.5_4').addClass('active-summary')
+		$('.story.5_4').addClass('active-story')
+
 		window.scrollTo(0,0)
 	})
 
@@ -80,6 +94,15 @@ var article = function(){
 		nextHeadlight.addClass('active-headlight')
 		currentArticle.removeClass('active-article')
 		nextArticle.addClass('active-article')
+
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.6_1').addClass('active-title')
+		$('.publish.6_1').addClass('active-publish')
+		$('.storySummary.6_1').addClass('active-summary')
+		$('.story.6_1').addClass('active-story')
 
 		window.scrollTo(0,0)
 	})
@@ -95,6 +118,20 @@ var article = function(){
 		currentArticle.removeClass('active-article')
 		nextArticle.addClass('active-article')
 
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$('.hot.7_6').removeClass('notDark').addClass('dark')
+		$('.hot.7_6').next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.7_6').addClass('active-title')
+		$('.publish.7_6').addClass('active-publish')
+		$('.storySummary.7_6').addClass('active-summary')
+		$('.story.7_6').addClass('active-story')
+
 		window.scrollTo(0,0)
 	})
 
@@ -103,11 +140,25 @@ var article = function(){
 		var nextHeadlight = $('.headlight.8')
 		var currentArticle = $('.active-article')
 		var nextArticle = $('.article8')
-
+ 
 		currentHeadlight.removeClass('active-headlight')
 		nextHeadlight.addClass('active-headlight')
 		currentArticle.removeClass('active-article')
 		nextArticle.addClass('active-article')
+
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$('.hot.8_5').removeClass('notDark').addClass('dark')
+		$('.hot.8_5').next().removeClass('dark').addClass('notDark')
+
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.8_5').addClass('active-title')
+		$('.publish.8_5').addClass('active-publish')
+		$('.storySummary.8_5').addClass('active-summary')
+		$('.story.8_5').addClass('active-story')
 
 		window.scrollTo(0,0)
 	})
@@ -247,6 +298,262 @@ var article = function(){
 		$('.active-title').removeClass('active-title')
 		$('.title.2_2').addClass('active-title')
 	})
+
+	$('.hot.5_4').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.5_4').addClass('active-title')
+		$('.publish.5_4').addClass('active-publish')
+		$('.storySummary.5_4').addClass('active-summary')
+		$('.story.5_4').addClass('active-story')
+	})
+
+	$('.hot.5_3').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.5_3').addClass('active-title')
+		$('.publish.5_3').addClass('active-publish')
+		$('.storySummary.5_3').addClass('active-summary')
+		$('.story.5_3').addClass('active-story')
+	})
+
+	$('.hot.5_2').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.5_2').addClass('active-title')
+		$('.publish.5_2').addClass('active-publish')
+		$('.storySummary.5_2').addClass('active-summary')
+		$('.story.5_2').addClass('active-story')
+	})
+
+	$('.hot.5_1').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.5_1').addClass('active-title')
+		$('.publish.5_1').addClass('active-publish')
+		$('.storySummary.5_1').addClass('active-summary')
+		$('.story.5_1').addClass('active-story')
+	})
+
+	$('.hot.6_1').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.6_1').addClass('active-title')
+		$('.publish.6_1').addClass('active-publish')
+		$('.storySummary.6_1').addClass('active-summary')
+		$('.story.6_1').addClass('active-story')
+	})
+
+	$('.hot.7_6').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.7_6').addClass('active-title')
+		$('.publish.7_6').addClass('active-publish')
+		$('.storySummary.7_6').addClass('active-summary')
+		$('.story.7_6').addClass('active-story')
+	})
+
+	$('.hot.7_5').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.7_5').addClass('active-title')
+		$('.publish.7_5').addClass('active-publish')
+		$('.storySummary.7_5').addClass('active-summary')
+		$('.story.7_5').addClass('active-story')
+	})
+
+	$('.hot.7_4').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.7_4').addClass('active-title')
+		$('.publish.7_4').addClass('active-publish')
+		$('.storySummary.7_4').addClass('active-summary')
+		$('.story.7_4').addClass('active-story')
+	})
+
+	$('.hot.7_3').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.7_3').addClass('active-title')
+		$('.publish.7_3').addClass('active-publish')
+		$('.storySummary.7_3').addClass('active-summary')
+		$('.story.7_3').addClass('active-story')
+	})
+
+	$('.hot.7_2').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.7_2').addClass('active-title')
+		$('.publish.7_2').addClass('active-publish')
+		$('.storySummary.7_2').addClass('active-summary')
+		$('.story.7_2').addClass('active-story')
+	})
+
+	$('.hot.7_1').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.7_1').addClass('active-title')
+		$('.publish.7_1').addClass('active-publish')
+		$('.storySummary.7_1').addClass('active-summary')
+		$('.story.7_1').addClass('active-story')
+	})
+
+	$('.hot.8_5').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.8_5').addClass('active-title')
+		$('.publish.8_5').addClass('active-publish')
+		$('.storySummary.8_5').addClass('active-summary')
+		$('.story.8_5').addClass('active-story')
+	})
+
+	$('.hot.8_4').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.8_4').addClass('active-title')
+		$('.publish.8_4').addClass('active-publish')
+		$('.storySummary.8_4').addClass('active-summary')
+		$('.story.8_4').addClass('active-story')
+	})
+	$('.hot.8_3').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.8_3').addClass('active-title')
+		$('.publish.8_3').addClass('active-publish')
+		$('.storySummary.8_3').addClass('active-summary')
+		$('.story.8_3').addClass('active-story')
+	})
+
+	$('.hot.8_2').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.8_2').addClass('active-title')
+		$('.publish.8_2').addClass('active-publish')
+		$('.storySummary.8_2').addClass('active-summary')
+		$('.story.8_2').addClass('active-story')
+	})
+
+	$('.hot.8_1').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.8_1').addClass('active-title')
+		$('.publish.8_1').addClass('active-publish')
+		$('.storySummary.8_1').addClass('active-summary')
+		$('.story.8_1').addClass('active-story')
+	})
+
 
 }
 
