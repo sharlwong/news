@@ -94,6 +94,7 @@ body{
 	width: 750px;
 	/*height:30px;*/
 	margin-top: 10px;
+	display: none;
 }
 
 /* THIN */
@@ -113,6 +114,7 @@ body{
 	height:80px;
 	margin-top: -10px;
 	margin-left: 2px;
+	display: none;
 }
 
 
@@ -231,10 +233,16 @@ figcaption {
 }
 /* all other articles except active-article will be blocked */
 .article1_1, .article2_1, .article2_2, .article3_1, 
-.article4_1, .article5_1, .article6 {
+.article4_1, .article5_1, .article6, .article7, .article8,
+.article9, .article10, .article11, .article12_1, .article13,
+.article14, .article15, .article16, .article17 {
 	display: none;
 }
 .active-article {
+	display: block;
+}
+
+.active-title, .active-publish{
 	display: block;
 }
 

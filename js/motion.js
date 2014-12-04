@@ -9,8 +9,6 @@ var main = function(){
 		$('.fa-angle-left').removeClass('arrowDisappear').addClass('arrowAppear')
 	}
 
-
-
 	$('.toggleButton').click(function(){
 		if ($('.toggleButton').hasClass('panelIn')){
 			$('.timeline').animate({left:"0px"},400);
@@ -41,7 +39,6 @@ var main = function(){
 			$('.fa-angle-left').removeClass('arrowAppear').addClass('arrowDisappear')
 		}
 	})
-
 
 	$('.choice').click(function(){
 		var thisClick = $(this)
@@ -152,14 +149,18 @@ var main = function(){
 		var nextGeneral = $('.locations')
 		var currentSelection = $('.active-selection')
 		var nextSelection = $('.locationsSelection')
-		var currentTodayNews = $('.active-box')
-		var nextTodayNews = $('.locationBox')
+		var currentTodayNews = $('.active-news')
+		var nextTodayNews = $('.locationNews')
+		var currentTodayNewsBox = $('.active-box')
+		var nextTodayNewsBox = $('.locationBox')
 		currentGeneral.removeClass('active-general')
 		nextGeneral.addClass('active-general')
 		currentSelection.removeClass('active-selection')
 		nextSelection.addClass('active-selection')
-		currentTodayNews.removeClass('active-box')
-		nextTodayNews.addClass('active-box')
+		currentTodayNews.removeClass('active-news')
+		nextTodayNews.addClass('active-news')
+		currentTodayNewsBox.removeClass('active-box')
+		nextTodayNewsBox.addClass('active-box')
 
 		var lastClick = $('.selectClick')
 		lastClick.removeClass('selectClick')
@@ -173,14 +174,18 @@ var main = function(){
 		var nextGeneral = $('.topic')
 		var currentSelection = $('.active-selection')
 		var nextSelection = $('.topicSelection')
-		var currentTodayNews = $('.active-box')
-		var nextTodayNews = $('.topicBox')
+		var currentTodayNews = $('.active-news')
+		var nextTodayNews = $('.topicNews')
+		var currentTodayNewsBox = $('.active-box')
+		var nextTodayNewsBox = $('.topicBox')
 		currentGeneral.removeClass('active-general')
 		nextGeneral.addClass('active-general')
 		currentSelection.removeClass('active-selection')
 		nextSelection.addClass('active-selection')
-		currentTodayNews.removeClass('active-box')
-		nextTodayNews.addClass('active-box')
+		currentTodayNews.removeClass('active-news')
+		nextTodayNews.addClass('active-news')
+		currentTodayNewsBox.removeClass('active-box')
+		nextTodayNewsBox.addClass('active-box')
 
 		var lastClick = $('.selectClick')
 		lastClick.removeClass('selectClick')
@@ -195,14 +200,18 @@ var main = function(){
 		var nextGeneral = $('.trending')
 		var currentSelection = $('.active-selection')
 		var nextSelection = $('.trendingSelection')
-		var currentTodayNews = $('.active-box')
-		var nextTodayNews = $('.trendingBox')
+		var currentTodayNews = $('.active-news')
+		var nextTodayNews = $('.trendingNews')
+		var currentTodayNewsBox = $('.active-box')
+		var nextTodayNewsBox = $('.trendingBox')
 		currentGeneral.removeClass('active-general')
 		nextGeneral.addClass('active-general')
 		currentSelection.removeClass('active-selection')
 		nextSelection.addClass('active-selection')
-		currentTodayNews.removeClass('active-box')
-		nextTodayNews.addClass('active-box')
+		currentTodayNews.removeClass('active-news')
+		nextTodayNews.addClass('active-news')
+		currentTodayNewsBox.removeClass('active-box')
+		nextTodayNewsBox.addClass('active-box')
 
 		var lastClick = $('.selectClick')
 		lastClick.removeClass('selectClick')
@@ -210,90 +219,6 @@ var main = function(){
 
 		$('.slider').removeClass('hideSth')
 
-	})
-
-	$('.headlight.1').click(function(){
-		var currentHeadlight = $('.active-headlight')
-		var nextHeadlight = $('.headlight.1')
-		var currentArticle = $('.active-article')
-		var nextArticle = $('.article1_1')
-
-		currentHeadlight.removeClass('active-headlight')
-		nextHeadlight.addClass('active-headlight')
-		currentArticle.removeClass('active-article')
-		nextArticle.addClass('active-article')
-
-		window.scrollTo(0,0)
-	})
-
-	$('.headlight.2').click(function(){
-		var currentHeadlight = $('.active-headlight')
-		var nextHeadlight = $('.headlight.2')
-		var currentArticle = $('.active-article')
-		var nextArticle = $('.article2_1')
-
-		currentHeadlight.removeClass('active-headlight')
-		nextHeadlight.addClass('active-headlight')
-		currentArticle.removeClass('active-article')
-		nextArticle.addClass('active-article')
-
-		window.scrollTo(0,0)
-	})
-
-	$('.headlight.3').click(function(){
-		var currentHeadlight = $('.active-headlight')
-		var nextHeadlight = $('.headlight.3')
-		var currentArticle = $('.active-article')
-		var nextArticle = $('.article3_1')
-
-		currentHeadlight.removeClass('active-headlight')
-		nextHeadlight.addClass('active-headlight')
-		currentArticle.removeClass('active-article')
-		nextArticle.addClass('active-article')
-
-		window.scrollTo(0,0)
-	})
-
-	$('.headlight.4').click(function(){
-		var currentHeadlight = $('.active-headlight')
-		var nextHeadlight = $('.headlight.4')
-		var currentArticle = $('.active-article')
-		var nextArticle = $('.article4_1')
-
-		currentHeadlight.removeClass('active-headlight')
-		nextHeadlight.addClass('active-headlight')
-		currentArticle.removeClass('active-article')
-		nextArticle.addClass('active-article')
-
-		window.scrollTo(0,0)
-	})
-
-	$('.headlight.5').click(function(){
-		var currentHeadlight = $('.active-headlight')
-		var nextHeadlight = $('.headlight.5')
-		var currentArticle = $('.active-article')
-		var nextArticle = $('.article5_1')
-
-		currentHeadlight.removeClass('active-headlight')
-		nextHeadlight.addClass('active-headlight')
-		currentArticle.removeClass('active-article')
-		nextArticle.addClass('active-article')
-
-		window.scrollTo(0,0)
-	})
-
-	$('.headlight.6').click(function(){
-		var currentHeadlight = $('.active-headlight')
-		var nextHeadlight = $('.headlight.6')
-		var currentArticle = $('.active-article')
-		var nextArticle = $('.article6')
-
-		currentHeadlight.removeClass('active-headlight')
-		nextHeadlight.addClass('active-headlight')
-		currentArticle.removeClass('active-article')
-		nextArticle.addClass('active-article')
-
-		window.scrollTo(0,0)
 	})
 
 	$('.topic').hover(function(){
@@ -307,14 +232,6 @@ var main = function(){
 	$('.trending').hover(function(){
 		$(this).css('border-bottom','2px solid')},function(){$(this).css('border-bottom','0px')}
 	)
-
-	$('.hot').click(function(){
-		$('.hot').removeClass('dark').addClass('notDark')
-		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
-	})
-
 
 	$('.arrow-left').click(function(){
 		var currentSlide = $('.active-slide');
