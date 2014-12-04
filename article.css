@@ -265,6 +265,11 @@ figcaption {
 .article14, .article15, .article16, .article17 {
 	display: none;
 }
+
+.article9 {
+	display: none;
+}
+
 .active-article {
 	display: block;
 }

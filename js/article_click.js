@@ -521,7 +521,7 @@ var article = function(){
 			$('.arrow-right').removeClass('appear')
 			$('.history').removeClass('expandHistory')
 		}
-		
+
 		var currentHeadlight = $('.active-headlight')
 		var nextHeadlight = $('.headlight.17')
 		var currentArticle = $('.active-article')
