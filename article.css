@@ -260,7 +260,7 @@ figcaption {
 }
 /* all other articles except active-article will be blocked */
 .article1, .article2, .article3, 
-.article4, .article5_1, .article6, .article7, .article8,
+.article4, .article5, .article6, .article7, .article8,
 .article9, .article10, .article11, .article12_1, .article13,
 .article14, .article15, .article16, .article17 {
 	display: none;
