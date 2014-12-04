@@ -238,11 +238,14 @@ var article = function(){
 		window.scrollTo(0,0)
 	})
 
-	$('.hot').click(function(){
+	$('.hot.2_2').click(function(){
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
 		$(this).removeClass('notDark').addClass('dark')
 		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.title.2_2').addClass('active-title')
 	})
 
 }

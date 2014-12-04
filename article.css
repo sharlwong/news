@@ -94,6 +94,7 @@ body{
 	width: 750px;
 	/*height:30px;*/
 	margin-top: 10px;
+	display: none;
 }
 
 /* THIN */
@@ -102,6 +103,8 @@ body{
 	font-size: 30px;
 	font-style: bold;
 }
+
+
 
 .publish{
 	/*position: absolute;*/
@@ -258,8 +261,9 @@ figcaption {
 .active-article {
 	display: block;
 }
-
-
+.active-title {
+	display: block;
+}
 
 .hot{
 }
