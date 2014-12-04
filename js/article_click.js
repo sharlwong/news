@@ -880,6 +880,146 @@ var article = function(){
 		$('.story.2_1').addClass('active-story')
 	})
 
+	$('.hot.4_8').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+
+		$('.title.4_8').addClass('active-title')
+		$('.publish.4_8').addClass('active-publish')
+		$('.storySummary.4_8').addClass('active-summary')
+		$('.story.4_8').addClass('active-story')
+		
+	})
+
+	$('.hot.4_7').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+
+		$('.title.4_7').addClass('active-title')
+		$('.publish.4_7').addClass('active-publish')
+		$('.storySummary.4_7').addClass('active-summary')
+		$('.story.4_7').addClass('active-story')
+	})
+
+	$('.hot.4_6').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+
+		$('.title.4_6').addClass('active-title')
+		$('.publish.4_6').addClass('active-publish')
+		$('.storySummary.4_6').addClass('active-summary')
+		$('.story.4_6').addClass('active-story')
+	})
+
+	$('.hot.4_5').click(function(){
+
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+
+		$('.title.4_5').addClass('active-title')
+		$('.publish.4_5').addClass('active-publish')
+		$('.storySummary.4_5').addClass('active-summary')
+		$('.story.4_5').addClass('active-story')
+	})
+
+	$('.hot.4_4').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+
+		$('.title.4_4').addClass('active-title')
+		$('.publish.4_4').addClass('active-publish')
+		$('.storySummary.4_4').addClass('active-summary')
+		$('.story.4_4').addClass('active-story')
+		
+	})
+
+	$('.hot.4_3').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+
+		$('.title.4_3').addClass('active-title')
+		$('.publish.4_3').addClass('active-publish')
+		$('.storySummary.4_3').addClass('active-summary')
+		$('.story.4_3').addClass('active-story')
+		
+	})
+
+	$('.hot.4_2').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+
+		$('.title.4_2').addClass('active-title')
+		$('.publish.4_2').addClass('active-publish')
+		$('.storySummary.4_2').addClass('active-summary')
+		$('.story.4_2').addClass('active-story')
+	})
+
+	$('.hot.4_1').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+
+		$('.title.4_1').addClass('active-title')
+		$('.publish.4_1').addClass('active-publish')
+		$('.storySummary.4_1').addClass('active-summary')
+		$('.story.4_1').addClass('active-story')
+	})
+
 	$('.hot.5_4').click(function(){
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
@@ -914,24 +1054,6 @@ var article = function(){
 		$('.story.5_3').addClass('active-story')
 	})
 
-	$('.hot.4_8').click(function(){
-		$('.hot').removeClass('dark').addClass('notDark')
-		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
-		
-		$('.active-title').removeClass('active-title')
-		$('.active-publish').removeClass('active-publish')
-		$('.active-summary').removeClass('active-summary')
-		$('.active-story').removeClass('active-story')
-
-		$('.title.4_8').addClass('active-title')
-		$('.publish.4_8').addClass('active-publish')
-		$('.storySummary.4_8').addClass('active-summary')
-		$('.story.4_8').addClass('active-story')
-		
-	})
-
 	$('.hot.5_2').click(function(){
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
@@ -947,23 +1069,6 @@ var article = function(){
 		$('.publish.5_2').addClass('active-publish')
 		$('.storySummary.5_2').addClass('active-summary')
 		$('.story.5_2').addClass('active-story')
-	})
-
-	$('.hot.4_7').click(function(){
-		$('.hot').removeClass('dark').addClass('notDark')
-		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
-		
-		$('.active-title').removeClass('active-title')
-		$('.active-publish').removeClass('active-publish')
-		$('.active-summary').removeClass('active-summary')
-		$('.active-story').removeClass('active-story')
-
-		$('.title.4_7').addClass('active-title')
-		$('.publish.4_7').addClass('active-publish')
-		$('.storySummary.4_7').addClass('active-summary')
-		$('.story.4_7').addClass('active-story')
 	})
 
 	$('.hot.5_1').click(function(){
@@ -983,23 +1088,6 @@ var article = function(){
 		$('.story.5_1').addClass('active-story')
 	})
 
-	$('.hot.4_6').click(function(){
-		$('.hot').removeClass('dark').addClass('notDark')
-		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
-		
-		$('.active-title').removeClass('active-title')
-		$('.active-publish').removeClass('active-publish')
-		$('.active-summary').removeClass('active-summary')
-		$('.active-story').removeClass('active-story')
-
-		$('.title.4_6').addClass('active-title')
-		$('.publish.4_6').addClass('active-publish')
-		$('.storySummary.4_6').addClass('active-summary')
-		$('.story.4_6').addClass('active-story')
-	})
-
 	$('.hot.6_1').click(function(){
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
@@ -1017,24 +1105,6 @@ var article = function(){
 		$('.story.6_1').addClass('active-story')
 	})
 
-	$('.hot.4_5').click(function(){
-
-		$('.hot').removeClass('dark').addClass('notDark')
-		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
-		
-		$('.active-title').removeClass('active-title')
-		$('.active-publish').removeClass('active-publish')
-		$('.active-summary').removeClass('active-summary')
-		$('.active-story').removeClass('active-story')
-
-		$('.title.4_5').addClass('active-title')
-		$('.publish.4_5').addClass('active-publish')
-		$('.storySummary.4_5').addClass('active-summary')
-		$('.story.4_5').addClass('active-story')
-	})
-
 	$('.hot.7_6').click(function(){
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
@@ -1050,24 +1120,6 @@ var article = function(){
 		$('.publish.7_6').addClass('active-publish')
 		$('.storySummary.7_6').addClass('active-summary')
 		$('.story.7_6').addClass('active-story')
-		
-	})
-
-	$('.hot.4_4').click(function(){
-		$('.hot').removeClass('dark').addClass('notDark')
-		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
-		
-		$('.active-title').removeClass('active-title')
-		$('.active-publish').removeClass('active-publish')
-		$('.active-summary').removeClass('active-summary')
-		$('.active-story').removeClass('active-story')
-
-		$('.title.4_4').addClass('active-title')
-		$('.publish.4_4').addClass('active-publish')
-		$('.storySummary.4_4').addClass('active-summary')
-		$('.story.4_4').addClass('active-story')
 		
 	})
 
@@ -1138,24 +1190,6 @@ var article = function(){
 		
 	})	
 
-	$('.hot.4_3').click(function(){
-		$('.hot').removeClass('dark').addClass('notDark')
-		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
-		
-		$('.active-title').removeClass('active-title')
-		$('.active-publish').removeClass('active-publish')
-		$('.active-summary').removeClass('active-summary')
-		$('.active-story').removeClass('active-story')
-
-		$('.title.4_3').addClass('active-title')
-		$('.publish.4_3').addClass('active-publish')
-		$('.storySummary.4_3').addClass('active-summary')
-		$('.story.4_3').addClass('active-story')
-		
-	})
-
 	$('.hot.7_1').click(function(){
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
@@ -1174,23 +1208,6 @@ var article = function(){
 		
 	})
 
-	$('.hot.4_2').click(function(){
-		$('.hot').removeClass('dark').addClass('notDark')
-		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
-		
-		$('.active-title').removeClass('active-title')
-		$('.active-publish').removeClass('active-publish')
-		$('.active-summary').removeClass('active-summary')
-		$('.active-story').removeClass('active-story')
-
-		$('.title.4_2').addClass('active-title')
-		$('.publish.4_2').addClass('active-publish')
-		$('.storySummary.4_2').addClass('active-summary')
-		$('.story.4_2').addClass('active-story')
-	})
-
 	$('.hot.8_5').click(function(){
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
@@ -1206,23 +1223,6 @@ var article = function(){
 		$('.publish.8_5').addClass('active-publish')
 		$('.storySummary.8_5').addClass('active-summary')
 		$('.story.8_5').addClass('active-story')
-	})
-
-	$('.hot.4_1').click(function(){
-		$('.hot').removeClass('dark').addClass('notDark')
-		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
-		
-		$('.active-title').removeClass('active-title')
-		$('.active-publish').removeClass('active-publish')
-		$('.active-summary').removeClass('active-summary')
-		$('.active-story').removeClass('active-story')
-
-		$('.title.4_1').addClass('active-title')
-		$('.publish.4_1').addClass('active-publish')
-		$('.storySummary.4_1').addClass('active-summary')
-		$('.story.4_1').addClass('active-story')
 	})
 
 	$('.hot.8_4').click(function(){
