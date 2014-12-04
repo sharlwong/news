@@ -94,7 +94,6 @@ body{
 	width: 750px;
 	/*height:30px;*/
 	margin-top: 10px;
-	display: none;
 }
 
 /* THIN */
@@ -114,7 +113,6 @@ body{
 	height:80px;
 	margin-top: -10px;
 	margin-left: 2px;
-	display: none;
 }
 
 
@@ -242,9 +240,7 @@ figcaption {
 	display: block;
 }
 
-.active-title, .active-publish{
-	display: block;
-}
+
 
 .hot{
 }

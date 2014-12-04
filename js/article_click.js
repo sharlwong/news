@@ -243,7 +243,6 @@ var article = function(){
 		$('.cold').removeClass('notDark').addClass('dark')
 		$(this).removeClass('notDark').addClass('dark')
 		$(this).next().removeClass('dark').addClass('notDark')
-		$('.title').addClass()
 	})
 
 }
