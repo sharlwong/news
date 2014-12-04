@@ -143,7 +143,7 @@ body{
 }
 #dock-container img {
      border: 0;
-     width: 70px;
+     width: 80px;
 }
 
 #dock-container img, #dock-container p {
@@ -154,6 +154,23 @@ body{
 
 #dock-container a:hover > img {
      -moz-transform: scale(2.7);
+     -o-transform: scale(2.7);
+     -webkit-transform: scale(2.7);
+}
+
+.slideImg a {
+     color: #ccc;
+     text-decoration: none;
+}
+
+.slideImg img {
+     -moz-transition: all .4s ease-in-out;
+     -o-transition: all .4s ease-in-out;
+     -webkit-transition: all .4s ease-in-out;
+}
+
+.slideImg a:hover > img {
+	 -moz-transform: scale(2.7);
      -o-transform: scale(2.7);
      -webkit-transform: scale(2.7);
 }
