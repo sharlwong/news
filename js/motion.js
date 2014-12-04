@@ -53,98 +53,116 @@ var main = function(){
 		if(thisClick.hasClass('business')){
 			$('.topicSlider').addClass('hideSth')
 			$('.topicLine').addClass('hideSth')
+			$('.item').addClass('hideSth')	
 			$('.businessNews').removeClass('hideSth')
 		}
 		else if(thisClick.hasClass('lifestyle')){
 			$('.topicSlider').addClass('hideSth')
 			$('.topicLine').addClass('hideSth')
+			$('.item').addClass('hideSth')	
 			$('.lifestyleNews').removeClass('hideSth')
 		}
 		else if(thisClick.hasClass('technology')){
 			$('.topicSlider').addClass('hideSth')
 			$('.topicLine').addClass('hideSth')
-			$('.technologyNews').removeClass('hideSth')			
+			$('.item').addClass('hideSth')	
+			$('.technologyNews').removeClass('hideSth')	
 		}
 		else if(thisClick.hasClass('politics')){
 			$('.topicSlider').addClass('hideSth')
 			$('.topicLine').addClass('hideSth')
-			$('.politicNews').removeClass('hideSth')			
+			$('.item').addClass('hideSth')	
+			$('.politicNews').removeClass('hideSth')
 		}
 		else if(thisClick.hasClass('entertainment')){
 			$('.topicSlider').addClass('hideSth')
 			$('.topicLine').addClass('hideSth')
-			$('.entertainmentNews').removeClass('hideSth')			
+			$('.item').addClass('hideSth')				
+			$('.entertainmentNews').removeClass('hideSth')	
 		}
 		else if(thisClick.hasClass('sport')){
 			$('.topicSlider').addClass('hideSth')
 			$('.topicLine').addClass('hideSth')
+			$('.item').addClass('hideSth')
 			$('.sportNews').removeClass('hideSth')
 		}
 		else if(thisClick.hasClass('MH17')){
 			$('.trendingSlider').addClass('hideSth')
 			$('.trendingLine').addClass('hideSth')
+			$('.item').addClass('hideSth')	
 			$('.MH17News').removeClass('hideSth')			
 		}
 		else if(thisClick.hasClass('yew')){
 			$('.trendingSlider').addClass('hideSth')
 			$('.trendingLine').addClass('hideSth')
+			$('.item').addClass('hideSth')	
 			$('.yewNews').removeClass('hideSth')			
 		}
 		else if(thisClick.hasClass('obama')){
 			$('.trendingSlider').addClass('hideSth')
 			$('.trendingLine').addClass('hideSth')
+			$('.item').addClass('hideSth')	
 			$('.obamaNews').removeClass('hideSth')			
 		}
 		else if(thisClick.hasClass('jinping')){
 			$('.trendingSlider').addClass('hideSth')
 			$('.trendingLine').addClass('hideSth')
+			$('.item').addClass('hideSth')	
 			$('.jinpingNews').removeClass('hideSth')
 		}
 		else if(thisClick.hasClass('loong')){
 			$('.trendingSlider').addClass('hideSth')
 			$('.trendingLine').addClass('hideSth')
+			$('.item').addClass('hideSth')	
 			$('.loongNews').removeClass('hideSth')			
 		}
-		else if(thisClick.hasClass('MH370')){
+		else if(thisClick.hasClass('japan')){
 			$('.trendingSlider').addClass('hideSth')
 			$('.trendingLine').addClass('hideSth')
-			$('.MH370News').removeClass('hideSth')			
+			$('.item').addClass('hideSth')
+			$('.japanNews').removeClass('hideSth')			
 		}
 		else if(thisClick.hasClass('singapore')){
 			$('.locationSlider').addClass('hideSth')
 			$('.locationLine').addClass('hideSth')
+			$('.item').addClass('hideSth')	
 			$('.singaporeNews').removeClass('hideSth')			
 		}
 		else if(thisClick.hasClass('pacific')){
 			$('.locationSlider').addClass('hideSth')
 			$('.locationLine').addClass('hideSth')
+			$('.item').addClass('hideSth')	
 			$('.pacificNews').removeClass('hideSth')
 		}
 		else if(thisClick.hasClass('africa')){
 			$('.locationSlider').addClass('hideSth')
 			$('.locationLine').addClass('hideSth')
+			$('.item').addClass('hideSth')	
 			$('.africaNews').removeClass('hideSth')			
 		}
 		else if(thisClick.hasClass('america')){
 			$('.locationSlider').addClass('hideSth')
 			$('.locationLine').addClass('hideSth')
+			$('.item').addClass('hideSth')	
 			$('.americaNews').removeClass('hideSth')			
 		}
 		else if(thisClick.hasClass('europe')){
 			$('.locationSlider').addClass('hideSth')
 			$('.locationLine').addClass('hideSth')
+			$('.item').addClass('hideSth')	
 			$('.europeNews').removeClass('hideSth')			
 		}
 		else if(thisClick.hasClass('east')){
 			$('.locationSlider').addClass('hideSth')
 			$('.locationLine').addClass('hideSth')
+			$('.item').addClass('hideSth')	
 			$('.eastNews').removeClass('hideSth')
 		}
 		else if(thisClick.hasClass('show')){
 			$('.slider').removeClass('hideSth')
 			$('.line').removeClass('hideSth')
+			$('.item').removeClass('hideSth')
 		}
-
 	})
 
 	$('.locations').click(function(){
@@ -170,6 +188,7 @@ var main = function(){
 		$('.show').addClass('selectClick')
 
 		$('.slider').removeClass('hideSth')
+		$('.item').removeClass('hideSth')
 	})
 
 	$('.topic').click(function(){
@@ -195,6 +214,7 @@ var main = function(){
 		$('.show').addClass('selectClick')
 
 		$('.slider').removeClass('hideSth')
+		$('.item').removeClass('hideSth')
 
 	})
 
@@ -221,6 +241,7 @@ var main = function(){
 		$('.show').addClass('selectClick')
 
 		$('.slider').removeClass('hideSth')
+		$('.item').removeClass('hideSth')
 
 	})
 

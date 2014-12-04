@@ -168,14 +168,13 @@ body{
      -moz-transition: all .4s ease-in-out;
      -o-transition: all .4s ease-in-out;
      -webkit-transition: all .4s ease-in-out;
-
+     
 }
 
 .slideImg a:hover > img {
 	 -moz-transform: scale(2.7);
      -o-transform: scale(2.7);
      -webkit-transform: scale(2.7);
-     z-index: 9999;
 }
 
 .timelineNav{
