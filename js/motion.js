@@ -7,6 +7,7 @@ var main = function(){
 		$('.showAll').removeClass('showAllIn').addClass('showAllOut')
 		$('.fa-angle-right').removeClass('arrowAppear').addClass('arrowDisappear')
 		$('.fa-angle-left').removeClass('arrowDisappear').addClass('arrowAppear')
+		$('.history').addClass('expandHistory')
 	}
 
 	$('.toggleButton').click(function(){
@@ -18,6 +19,7 @@ var main = function(){
 			$('.history').removeClass('active-history')
 			$('.expandHistory').addClass('active-history')
 			$('.arrow-right').addClass('appear')
+			$('.history').addClass('expandHistory')
 		}
 		else{
 			$('.timeline').animate({left:"-625px"},400);
@@ -27,6 +29,7 @@ var main = function(){
 			$('.expandHistory').removeClass('active-history')
 			$('.history').addClass('active-history')
 			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
 		}
 
 		if($('.fa-angle-right').hasClass('arrowAppear')){

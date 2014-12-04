@@ -13,34 +13,10 @@
 
 /*** Sidebar layout ***/
 
-.timeLine{
-	font-size: 14px;
-	top: 0px;
-	position: fixed;
-	width:1000px;
-	height: 650px;
-	left:-400px;
-	z-index: 99999;
-	/*left:0px;*/
-	/*background-color: grey;*/
-}
-
-.timeLinePanel{
-	width:750px;
-	height: 650px;
-	background-color: white;
-	float: left;
-	/*box-shadow: */
-	box-shadow: 2px 2px 2px #888888;
-	/*border-top: 1px solid;*/
-	/*border-right: 1px solid;*/
-	border-bottom: 1px solid #888888;
-}
 
 .toggleArrow{
 	width: 50px;
 	height: 650px;
-	/*background-color: red;*/
 	float: left;
 
 }
@@ -63,10 +39,6 @@
 	font-size: 40px;
 }
 
-/*.arrowIn{
-	display: inline-block;
-}
-*/
 
 .toggleButton{
 	position: relative;
@@ -75,10 +47,6 @@
 	margin-left: 0px;
 	background-color: white;
 	top:10px;
-	/*left: -10px;*/
-/*		border-right: 1px solid;
-		border-top: 1px solid;
-		border-bottom: 1px solid;*/
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 	border-top: 1px solid;
@@ -98,9 +66,6 @@
 /*** Categorization ***/
 
 .search{
-	/*background: blue;*/
-/*	height:150;*/
-	/*border-right: 1px solid;*/
 	border-top: 1px solid;
 	border-bottom: 1px solid;
 	border-color: #888888;
@@ -124,13 +89,11 @@
 	margin-top: 10px;
 	margin-bottom: 5px;
 	color: #888888;
-	/*list-style-type:circle;*/
 }
 
 .general ul .dot{
 	position: relative;
 	top:-5px;
-/*	left: 0px;*/
 	font-size: 25px;
 	margin-right: 0px;
 	margin-left: 0px;
@@ -160,10 +123,8 @@
 }
 
 .selection{
-	/*background-color: blue;*/
 	padding-left: 30px;
 	padding-right: 20px;
-	/*display: none;*/
 }
 .topicSelection, .trendingSelection, .locationsSelection{
 	display: none;
@@ -178,7 +139,6 @@
 	margin-top: 0px;
 	margin-bottom: 0px;
 	text-align: left;
-	/*line-height: 28px;*/
 }
 
 .selection li{
@@ -186,8 +146,6 @@
 	margin-top: 3px;
 	margin-bottom: 3px;
 	margin-right: 2px;
-/*	padding-top: 3px;
-	padding-bottom: 3px;*/
 	padding-left: 9px;
 	padding-right: 10px;
 	padding-top: 5px;
@@ -205,7 +163,6 @@
 }
 
 .showAll{
-	/*background-color: blue;*/
 	margin-top: 8px;
 	position: absolute;
 }
@@ -222,33 +179,21 @@
 .showAll ul{
 }
 
-/*.showAll li{
-	display: inline;
-	padding-top: 1.7px;
-	padding-bottom: 1.3px;
-	padding-left: 0px;
-	padding-right: 5px;
-	color: white;
-	background-color: #888888;
-	cursor: pointer;
-}
-*/
-
 
 /*** Today's News ***/
 
 .todayNews{
 	height:30px;
-	width:850px;
+	width:300px;
 	background-color: white;
 	float: left;
 	margin-bottom: 20px;
-	margin-left: 78px;
+	margin-left: 55px;
 }
 
 .todayNews .contain{
-	margin-right: 20px;
-	margin-left: 604px;
+/*	margin-right: 20px;
+	margin-left: 604px;*/
 	margin-top:15px;
 	display: inline-block;
 }
@@ -259,28 +204,29 @@
 
 .history{
 	width:975;
-	height:450;
+	height:500;
 	background-color: white;
 	float:left;
 	overflow: scroll;
+	z-index: 9999;
 	/*display: none;*/
+}
+
+.expandHistory{
+	height: 550px;
 }
 
 
 .boxes{
-	/*background-color: green;*/
 	width:630px;
 	height:450px;
-	/*display: inline-block;*/
-	/*margin-right: 30px;*/
 	float: left;
+	margin-top: 50px;
 }
 
 .today{
-	/*background-color: blue;*/
 	width: 300px;
 	height:450px;
-	/*display: inline-block;*/
 	float: left;
 }
 
@@ -311,42 +257,37 @@
 
 .trendingNews, .locationNews, .topicNews, .hideSth {
 	display: none;
+	float: left;
 }
 
 .active-news{
 	display: block;
 }
 
+
 .timeLine{
+	font-size: 14px;
 	top: 0px;
 	position: fixed;
-	/*width:1025px;*/
 	width:1100px;
-	height: 650px;
+	height: 700px;
 	left:-625px;
 	z-index: 99999;
-	/*left:0px;*/
-	/*background-color: grey;*/
 }
 
 .timeLinePanel{
 	width:975px;
-	height: 650px;
+	height: 7000px;
 	background-color: white;
 	float: left;
-	/*box-shadow: */
 	box-shadow: 2px 2px 2px #888888;
-	/*border-top: 1px solid;*/
-	/*border-right: 1px solid;*/
 	border-bottom: 1px solid #888888;
 }
 
 .toggleArrow{
 	width: 50px;
 	height: 650px;
-	/*background-color: red;*/
 	float: left;
-
 }
 
 .toggleButton .arrowAppear{
@@ -367,10 +308,6 @@
 	font-size: 40px;
 }
 
-/*.arrowIn{
-	display: inline-block;
-}
-*/
 
 .toggleButton{
 	position: relative;
@@ -379,10 +316,6 @@
 	margin-left: 0px;
 	background-color: white;
 	top:10px;
-	/*left: -10px;*/
-/*		border-right: 1px solid;
-		border-top: 1px solid;
-		border-bottom: 1px solid;*/
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 	border-top: 1px solid;
@@ -398,30 +331,10 @@
 .panelOut{
 }
 
-/*.timeLinePanel .active-history{
-	display: block;
-}*/
-
-
-/*.expandHistory{
-	width:975px;
-	height: 450px;
-	color:black;
-	float: left;
-	overflow: scroll;
-	display: none;
-}*/
 
 .arrow-left{
-	/*width:60px;*/
-	/*height:450px;*/
 	color:grey;
-	/*float: left;*/
 	position: relative;
-	/*left:28px;
-	top:80px;
-	left: -50px;
-	top: 140px;*/
 	left: -660px;
 	top: 140px;
 }
@@ -429,7 +342,6 @@
 .pastBox{
 	margin-top: 30px;
 	width:600px;
-	/*height:450px;*/
 	float: left;
 }
 
@@ -445,13 +357,8 @@
 }
 
 .arrow-right{
-	/*width:80px;*/
-	/*height:450px;*/
 	color:grey;
-	/*float: left;*/
 	position: relative;
-	/*left:-10px;
-	top:140px;*/
 	left: 230px;
 	top: -8px;
 	display:none;
@@ -460,7 +367,6 @@
 .appear {
 	display:block;
 }
-
 
 
 .line{
@@ -498,28 +404,6 @@
 	display: inline-block;
 }
 
-.expandTodayNews1{
-	height:54px;
-	width:500px;
-}
-
-.expandTodayNews2{
-	height:50px;
-	width:180px;
-}
-
-.expandTodayNews2 div{
-	position:relative;
-	right:10px;
-	font-style:italic;
-	font-weight: 900;
-	font-size:20px;
-	top:15px;
-}
-
-/*.timeLine .headline .div{
-
-}*/
 
 .piece img{
 	width:170px;
@@ -531,7 +415,6 @@
 	width:60px;
 	height: 60px;
 	float: right;
-	/*overflow: hidden;*/
 }
 
 .slideA1, .slideA2, .slideA3, .slideA4, .slideA5, .slideB1, .slideB2, .slideC1, .slideC2{
@@ -539,8 +422,6 @@
 	margin-bottom: 17px;
 	height: 64px;
 	display: none;
-	/*overflow: hidden;*/
-	/*float: right;*/
 }
 
 
