@@ -1,9 +1,4 @@
-
-
-
-
 var main = function(){
-
 
 	var goOut = function(){
 		$('.timeline').animate({left:"0px"},400);
@@ -24,6 +19,7 @@ var main = function(){
 			$('.showAll').removeClass('showAllIn').addClass('showAllOut')
 			$('.history').removeClass('active-history')
 			$('.expandHistory').addClass('active-history')
+			$('.arrow-right').addClass('appear')
 		}
 		else{
 			$('.timeline').animate({left:"-625px"},400);
@@ -32,6 +28,7 @@ var main = function(){
 			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
 			$('.expandHistory').removeClass('active-history')
 			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
 		}
 
 		if($('.fa-angle-right').hasClass('arrowAppear')){
@@ -326,6 +323,9 @@ var main = function(){
         currentSlide.removeClass('active-slide');           
 	        $('.slideA1').first().addClass('active-slide');
 	        $('.slideA2').first().addClass('active-slide');
+	        $('.slideA3').first().addClass('active-slide');
+	        $('.slideA4').first().addClass('active-slide');
+	        $('.slideA5').first().addClass('active-slide');
 	        $('.slideB1').first().addClass('active-slide');
 	        $('.slideB2').first().addClass('active-slide');
 	        $('.slideC1').first().addClass('active-slide');
@@ -344,6 +344,9 @@ var main = function(){
         currentSlide.removeClass('active-slide');           
 	        $('.slideA1').last().addClass('active-slide');
 	        $('.slideA2').last().addClass('active-slide');
+	        $('.slideA3').last().addClass('active-slide');
+	        $('.slideA4').last().addClass('active-slide');
+	        $('.slideA5').last().addClass('active-slide');
 	        $('.slideB1').last().addClass('active-slide');
 	        $('.slideB2').last().addClass('active-slide');
 	        $('.slideC1').last().addClass('active-slide');

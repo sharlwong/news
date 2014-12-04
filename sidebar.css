@@ -239,16 +239,16 @@
 
 .todayNews{
 	height:30px;
-	width:975px;
+	width:850px;
 	background-color: white;
 	float: left;
 	margin-bottom: 20px;
-	
+	margin-left: 78px;
 }
 
 .todayNews .contain{
 	margin-right: 20px;
-	margin-left: 590px;
+	margin-left: 604px;
 	margin-top:15px;
 	display: inline-block;
 }
@@ -290,7 +290,7 @@
 	padding-left:20px;
 	padding-right:20px;
 	margin-bottom: 21px;
-	margin-left: 10px;
+	margin-left: 28px;
 	color: #888888;
 	cursor: pointer;
 }
@@ -415,11 +415,15 @@
 .arrow-left{
 	/*width:60px;*/
 	/*height:450px;*/
-	color:green;
+	color:grey;
 	/*float: left;*/
 	position: relative;
-	left:28px;
+	/*left:28px;
 	top:80px;
+	left: -50px;
+	top: 140px;*/
+	left: -660px;
+	top: 140px;
 }
 
 .pastBox{
@@ -443,11 +447,18 @@
 .arrow-right{
 	/*width:80px;*/
 	/*height:450px;*/
-	color:green;
+	color:grey;
 	/*float: left;*/
 	position: relative;
-	left:-10px;
-	top:140px;
+	/*left:-10px;
+	top:140px;*/
+	left: 230px;
+	top: -8px;
+	display:none;
+}
+
+.appear {
+	display:block;
 }
 
 
@@ -520,10 +531,10 @@
 	width:170px;
 	height: 60px;
 	float: right;
-		/*overflow: hidden;*/
+	/*overflow: hidden;*/
 }
 
-.slideA1, .slideA2, .slideB1, .slideB2, .slideC1, .slideC2{
+.slideA1, .slideA2, .slideA3, .slideA4, .slideA5, .slideB1, .slideB2, .slideC1, .slideC2{
 	padding-left: 50px;
 	margin-bottom: 17px;
 	height: 64px;
