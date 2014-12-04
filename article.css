@@ -145,8 +145,12 @@ body{
      text-decoration: none;
 }
 #dock-container img {
-     border: 0;
+     /*border: 0;*/
      width: 80px;
+}
+
+.selected-article img {
+	border: 2px solid black;
 }
 
 #dock-container img, #dock-container p {
