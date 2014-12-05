@@ -583,10 +583,10 @@ var article = function(){
 		$('.active-publish').removeClass('active-publish')
 		$('.active-summary').removeClass('active-summary')
 		$('.active-story').removeClass('active-story')
-		$('.title.17').addClass('active-title')
-		$('.publish.17').addClass('active-publish')
-		$('.storySummary.17').addClass('active-summary')
-		$('.story.17').addClass('active-story')
+		$('.title.17_5').addClass('active-title')
+		$('.publish.17_5').addClass('active-publish')
+		$('.storySummary.17_5').addClass('active-summary')
+		$('.story.17_5').addClass('active-story')
 
 		currentHeadlight.removeClass('active-headlight')
 		nextHeadlight.addClass('active-headlight')
@@ -1722,6 +1722,149 @@ var article = function(){
 		$('.story.8_1').addClass('active-story')
 	})
 
+	$('.hot.17_5').click(function(){
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$(this).removeClass('notDark').addClass('dark')
+		$(this).next().removeClass('dark').addClass('notDark')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+
+		$('.title.17_5').addClass('active-title')
+		$('.publish.17_5').addClass('active-publish')
+		$('.storySummary.17_5').addClass('active-summary')
+		$('.story.17_5').addClass('active-story')
+	})
+
+	$('.hot.17_4').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$('.hot.17_4').removeClass('notDark').addClass('dark')
+		$('.hot.17_4').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article17')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.17_4').addClass('active-title')
+		$('.publish.17_4').addClass('active-publish')
+		$('.storySummary.17_4').addClass('active-summary')
+		$('.story.17_4').addClass('active-story')
+	})
+	$('.hot.17_3').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$('.hot.17_3').removeClass('notDark').addClass('dark')
+		$('.hot.17_3').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article17')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.17_3').addClass('active-title')
+		$('.publish.17_3').addClass('active-publish')
+		$('.storySummary.17_3').addClass('active-summary')
+		$('.story.17_3').addClass('active-story')
+	})
+
+	$('.hot.17_2').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$('.hot.17_2').removeClass('notDark').addClass('dark')
+		$('.hot.17_2').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article17')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.17_2').addClass('active-title')
+		$('.publish.17_2').addClass('active-publish')
+		$('.storySummary.17_2').addClass('active-summary')
+		$('.story.17_2').addClass('active-story')
+	})
+
+	$('.hot.17_1').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$('.hot.17_1').removeClass('notDark').addClass('dark')
+		$('.hot.17_1').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article17')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
+		
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.17_1').addClass('active-title')
+		$('.publish.17_1').addClass('active-publish')
+		$('.storySummary.17_1').addClass('active-summary')
+		$('.story.17_1').addClass('active-story')
+	})
 }
 
 $(document).ready(article)
