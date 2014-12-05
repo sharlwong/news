@@ -11,7 +11,6 @@ var article = function(){
 			$('.arrow-right').removeClass('appear')
 			$('.history').removeClass('expandHistory')
 		}
-
 		var currentHeadlight = $('.active-headlight')
 		var nextHeadlight = $('.headlight.1')
 		var currentArticle = $('.active-article')
@@ -31,10 +30,10 @@ var article = function(){
 		$('.active-publish').removeClass('active-publish')
 		$('.active-summary').removeClass('active-summary')
 		$('.active-story').removeClass('active-story')
-		$('.title.1_8').addClass('active-title')
-		$('.publish.1_8').addClass('active-publish')
-		$('.storySummary.1_8').addClass('active-summary')
-		$('.story.1_8').addClass('active-story')
+		$('.title.1_1').addClass('active-title')
+		$('.publish.1_1').addClass('active-publish')
+		$('.storySummary.1_1').addClass('active-summary')
+		$('.story.1_1').addClass('active-story')
 
 		window.scrollTo(0,0)
 	})
@@ -88,7 +87,6 @@ var article = function(){
 			$('.arrow-right').removeClass('appear')
 			$('.history').removeClass('expandHistory')
 		}
-
 		var currentHeadlight = $('.active-headlight')
 		var nextHeadlight = $('.headlight.3')
 		var currentArticle = $('.active-article')
@@ -122,7 +120,6 @@ var article = function(){
 			$('.arrow-right').removeClass('appear')
 			$('.history').removeClass('expandHistory')
 		}
-
 		var currentHeadlight = $('.active-headlight')
 		var nextHeadlight = $('.headlight.4')
 		var currentArticle = $('.active-article')
@@ -161,7 +158,6 @@ var article = function(){
 			$('.arrow-right').removeClass('appear')
 			$('.history').removeClass('expandHistory')
 		}
-
 		var currentHeadlight = $('.active-headlight')
 		var nextHeadlight = $('.headlight.5')
 		var currentArticle = $('.active-article')
@@ -200,7 +196,6 @@ var article = function(){
 			$('.arrow-right').removeClass('appear')
 			$('.history').removeClass('expandHistory')
 		}
-
 		var currentHeadlight = $('.active-headlight')
 		var nextHeadlight = $('.headlight.6')
 		var currentArticle = $('.active-article')
@@ -234,7 +229,6 @@ var article = function(){
 			$('.arrow-right').removeClass('appear')
 			$('.history').removeClass('expandHistory')
 		}
-
 		var currentHeadlight = $('.active-headlight')
 		var nextHeadlight = $('.headlight.7')
 		var currentArticle = $('.active-article')
@@ -273,7 +267,6 @@ var article = function(){
 			$('.arrow-right').removeClass('appear')
 			$('.history').removeClass('expandHistory')
 		}
-
 		var currentHeadlight = $('.active-headlight')
 		var nextHeadlight = $('.headlight.8')
 		var currentArticle = $('.active-article')
@@ -312,7 +305,6 @@ var article = function(){
 			$('.arrow-right').removeClass('appear')
 			$('.history').removeClass('expandHistory')
 		}
-
 		var currentHeadlight = $('.active-headlight')
 		var nextHeadlight = $('.headlight.9')
 		var currentArticle = $('.active-article')
@@ -346,11 +338,19 @@ var article = function(){
 			$('.arrow-right').removeClass('appear')
 			$('.history').removeClass('expandHistory')
 		}
-
 		var currentHeadlight = $('.active-headlight')
 		var nextHeadlight = $('.headlight.10')
 		var currentArticle = $('.active-article')
 		var nextArticle = $('.article10')
+
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.10').addClass('active-title')
+		$('.publish.10').addClass('active-publish')
+		$('.storySummary.10').addClass('active-summary')
+		$('.story.10').addClass('active-story')
 
 		currentHeadlight.removeClass('active-headlight')
 		nextHeadlight.addClass('active-headlight')
@@ -371,11 +371,19 @@ var article = function(){
 			$('.arrow-right').removeClass('appear')
 			$('.history').removeClass('expandHistory')
 		}
-
 		var currentHeadlight = $('.active-headlight')
 		var nextHeadlight = $('.headlight.11')
 		var currentArticle = $('.active-article')
 		var nextArticle = $('.article11')
+
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.11').addClass('active-title')
+		$('.publish.11').addClass('active-publish')
+		$('.storySummary.11').addClass('active-summary')
+		$('.story.11').addClass('active-story')
 
 		currentHeadlight.removeClass('active-headlight')
 		nextHeadlight.addClass('active-headlight')
@@ -400,7 +408,16 @@ var article = function(){
 		var currentHeadlight = $('.active-headlight')
 		var nextHeadlight = $('.headlight.12')
 		var currentArticle = $('.active-article')
-		var nextArticle = $('.article12_1')
+		var nextArticle = $('.article12')
+
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.12').addClass('active-title')
+		$('.publish.12').addClass('active-publish')
+		$('.storySummary.12').addClass('active-summary')
+		$('.story.12').addClass('active-story')
 
 		currentHeadlight.removeClass('active-headlight')
 		nextHeadlight.addClass('active-headlight')
@@ -427,6 +444,15 @@ var article = function(){
 		var currentArticle = $('.active-article')
 		var nextArticle = $('.article13')
 
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.13').addClass('active-title')
+		$('.publish.13').addClass('active-publish')
+		$('.storySummary.13').addClass('active-summary')
+		$('.story.13').addClass('active-story')
+
 		currentHeadlight.removeClass('active-headlight')
 		nextHeadlight.addClass('active-headlight')
 		currentArticle.removeClass('active-article')
@@ -451,6 +477,15 @@ var article = function(){
 		var nextHeadlight = $('.headlight.14')
 		var currentArticle = $('.active-article')
 		var nextArticle = $('.article14')
+
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.14').addClass('active-title')
+		$('.publish.14').addClass('active-publish')
+		$('.storySummary.14').addClass('active-summary')
+		$('.story.14').addClass('active-story')
 
 		currentHeadlight.removeClass('active-headlight')
 		nextHeadlight.addClass('active-headlight')
@@ -477,6 +512,15 @@ var article = function(){
 		var currentArticle = $('.active-article')
 		var nextArticle = $('.article15')
 
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.15').addClass('active-title')
+		$('.publish.15').addClass('active-publish')
+		$('.storySummary.15').addClass('active-summary')
+		$('.story.15').addClass('active-story')
+
 		currentHeadlight.removeClass('active-headlight')
 		nextHeadlight.addClass('active-headlight')
 		currentArticle.removeClass('active-article')
@@ -502,6 +546,15 @@ var article = function(){
 		var currentArticle = $('.active-article')
 		var nextArticle = $('.article16')
 
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.16').addClass('active-title')
+		$('.publish.16').addClass('active-publish')
+		$('.storySummary.16').addClass('active-summary')
+		$('.story.16').addClass('active-story')
+
 		currentHeadlight.removeClass('active-headlight')
 		nextHeadlight.addClass('active-headlight')
 		currentArticle.removeClass('active-article')
@@ -521,11 +574,19 @@ var article = function(){
 			$('.arrow-right').removeClass('appear')
 			$('.history').removeClass('expandHistory')
 		}
-
 		var currentHeadlight = $('.active-headlight')
 		var nextHeadlight = $('.headlight.17')
 		var currentArticle = $('.active-article')
 		var nextArticle = $('.article17')
+
+		$('.active-title').removeClass('active-title')
+		$('.active-publish').removeClass('active-publish')
+		$('.active-summary').removeClass('active-summary')
+		$('.active-story').removeClass('active-story')
+		$('.title.17').addClass('active-title')
+		$('.publish.17').addClass('active-publish')
+		$('.storySummary.17').addClass('active-summary')
+		$('.story.17').addClass('active-story')
 
 		currentHeadlight.removeClass('active-headlight')
 		nextHeadlight.addClass('active-headlight')
@@ -536,10 +597,25 @@ var article = function(){
 	})
 
 	$('.hot.1_8').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.1_8').removeClass('notDark').addClass('dark')
+		$('.hot.1_8').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article1')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -553,7 +629,6 @@ var article = function(){
 
 	$('.hot.1_7').click(function(){
 		if ($('.toggleButton').hasClass('panelOut')) {
-
 			$('.timeline').animate({left:"-625px"},400);
 			$('.search').removeClass('searchOut').addClass('searchIn');
 			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
@@ -562,13 +637,16 @@ var article = function(){
 			$('.history').addClass('active-history')
 			$('.arrow-right').removeClass('appear')
 			$('.history').removeClass('expandHistory')
-		}else {
-			$('.hot').removeClass('dark').addClass('notDark')
-			$('.cold').removeClass('notDark').addClass('dark')
-			$(this).removeClass('notDark').addClass('dark')
-			$(this).next().removeClass('dark').addClass('notDark')
 		}
-		
+		$('.hot').removeClass('dark').addClass('notDark')
+		$('.cold').removeClass('notDark').addClass('dark')
+		$('.hot.1_7').removeClass('notDark').addClass('dark')
+		$('.hot.1_7').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article1')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -581,10 +659,26 @@ var article = function(){
 	})
 
 	$('.hot.1_6').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.1_6').removeClass('notDark').addClass('dark')
+		$('.hot.1_6').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article1')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -597,10 +691,26 @@ var article = function(){
 	})
 
 	$('.hot.1_5').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.1_5').removeClass('notDark').addClass('dark')
+		$('.hot.1_5').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article1')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -613,10 +723,26 @@ var article = function(){
 	})
 
 	$('.hot.1_4').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.1_4').removeClass('notDark').addClass('dark')
+		$('.hot.1_4').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article1')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -629,10 +755,26 @@ var article = function(){
 	})	
 
 	$('.hot.1_3').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.1_3').removeClass('notDark').addClass('dark')
+		$('.hot.1_3').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article1')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -645,10 +787,26 @@ var article = function(){
 	})
 
 	$('.hot.1_2').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.1_2').removeClass('notDark').addClass('dark')
+		$('.hot.1_2').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article1')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -900,7 +1058,6 @@ var article = function(){
 
 	$('.hot.4_7').click(function(){
 		if ($('.toggleButton').hasClass('panelOut')) {
-
 			$('.timeline').animate({left:"-625px"},400);
 			$('.search').removeClass('searchOut').addClass('searchIn');
 			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
@@ -933,7 +1090,6 @@ var article = function(){
 
 	$('.hot.4_6').click(function(){
 		if ($('.toggleButton').hasClass('panelOut')) {
-
 			$('.timeline').animate({left:"-625px"},400);
 			$('.search').removeClass('searchOut').addClass('searchIn');
 			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
@@ -966,7 +1122,6 @@ var article = function(){
 
 	$('.hot.4_5').click(function(){
 		if ($('.toggleButton').hasClass('panelOut')) {
-
 			$('.timeline').animate({left:"-625px"},400);
 			$('.search').removeClass('searchOut').addClass('searchIn');
 			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
@@ -999,7 +1154,6 @@ var article = function(){
 
 	$('.hot.4_4').click(function(){
 		if ($('.toggleButton').hasClass('panelOut')) {
-
 			$('.timeline').animate({left:"-625px"},400);
 			$('.search').removeClass('searchOut').addClass('searchIn');
 			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
@@ -1033,7 +1187,6 @@ var article = function(){
 
 	$('.hot.4_3').click(function(){
 		if ($('.toggleButton').hasClass('panelOut')) {
-
 			$('.timeline').animate({left:"-625px"},400);
 			$('.search').removeClass('searchOut').addClass('searchIn');
 			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
@@ -1067,7 +1220,6 @@ var article = function(){
 
 	$('.hot.4_2').click(function(){
 		if ($('.toggleButton').hasClass('panelOut')) {
-
 			$('.timeline').animate({left:"-625px"},400);
 			$('.search').removeClass('searchOut').addClass('searchIn');
 			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
@@ -1100,7 +1252,6 @@ var article = function(){
 
 	$('.hot.4_1').click(function(){
 		if ($('.toggleButton').hasClass('panelOut')) {
-
 			$('.timeline').animate({left:"-625px"},400);
 			$('.search').removeClass('searchOut').addClass('searchIn');
 			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
@@ -1118,7 +1269,8 @@ var article = function(){
 		var currentArticle = $('.active-article')
 		var nextArticle = $('.article4')
 		currentArticle.removeClass('active-article')
-		nextArticle.addClass('active-article')		
+		nextArticle.addClass('active-article')
+		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
 		$('.active-summary').removeClass('active-summary')
@@ -1149,7 +1301,6 @@ var article = function(){
 
 	$('.hot.5_3').click(function(){
 		if ($('.toggleButton').hasClass('panelOut')) {
-
 			$('.timeline').animate({left:"-625px"},400);
 			$('.search').removeClass('searchOut').addClass('searchIn');
 			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
@@ -1182,7 +1333,6 @@ var article = function(){
 
 	$('.hot.5_2').click(function(){
 		if ($('.toggleButton').hasClass('panelOut')) {
-
 			$('.timeline').animate({left:"-625px"},400);
 			$('.search').removeClass('searchOut').addClass('searchIn');
 			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
@@ -1215,7 +1365,6 @@ var article = function(){
 
 	$('.hot.5_1').click(function(){
 		if ($('.toggleButton').hasClass('panelOut')) {
-
 			$('.timeline').animate({left:"-625px"},400);
 			$('.search').removeClass('searchOut').addClass('searchIn');
 			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
@@ -1244,23 +1393,6 @@ var article = function(){
 		$('.publish.5_1').addClass('active-publish')
 		$('.storySummary.5_1').addClass('active-summary')
 		$('.story.5_1').addClass('active-story')
-	})
-
-	$('.hot.6_1').click(function(){
-		$('.hot').removeClass('dark').addClass('notDark')
-		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
-		
-		$('.active-title').removeClass('active-title')
-		$('.active-publish').removeClass('active-publish')
-		$('.active-summary').removeClass('active-summary')
-		$('.active-story').removeClass('active-story')
-
-		$('.title.6_1').addClass('active-title')
-		$('.publish.6_1').addClass('active-publish')
-		$('.storySummary.6_1').addClass('active-summary')
-		$('.story.6_1').addClass('active-story')
 	})
 
 	$('.hot.7_6').click(function(){
