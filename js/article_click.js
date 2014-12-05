@@ -899,10 +899,26 @@ var article = function(){
 	})
 
 	$('.hot.4_7').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.4_7').removeClass('notDark').addClass('dark')
+		$('.hot.4_7').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article4')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -916,10 +932,26 @@ var article = function(){
 	})
 
 	$('.hot.4_6').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.4_6').removeClass('notDark').addClass('dark')
+		$('.hot.4_6').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article4')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -933,11 +965,26 @@ var article = function(){
 	})
 
 	$('.hot.4_5').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
 
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.4_5').removeClass('notDark').addClass('dark')
+		$('.hot.4_5').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article4')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -951,10 +998,26 @@ var article = function(){
 	})
 
 	$('.hot.4_4').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.4_4').removeClass('notDark').addClass('dark')
+		$('.hot.4_4').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article4')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -969,10 +1032,26 @@ var article = function(){
 	})
 
 	$('.hot.4_3').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.4_3').removeClass('notDark').addClass('dark')
+		$('.hot.4_3').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article4')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -987,10 +1066,26 @@ var article = function(){
 	})
 
 	$('.hot.4_2').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.4_2').removeClass('notDark').addClass('dark')
+		$('.hot.4_2').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article4')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -1004,11 +1099,26 @@ var article = function(){
 	})
 
 	$('.hot.4_1').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
-		
+		$('.hot.4_1').removeClass('notDark').addClass('dark')
+		$('.hot.4_1').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article4')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
 		$('.active-summary').removeClass('active-summary')
@@ -1038,10 +1148,26 @@ var article = function(){
 	})
 
 	$('.hot.5_3').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.5_3').removeClass('notDark').addClass('dark')
+		$('.hot.5_3').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article5')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -1055,10 +1181,26 @@ var article = function(){
 	})
 
 	$('.hot.5_2').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.5_2').removeClass('notDark').addClass('dark')
+		$('.hot.5_2').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article5')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -1072,10 +1214,26 @@ var article = function(){
 	})
 
 	$('.hot.5_1').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.5_1').removeClass('notDark').addClass('dark')
+		$('.hot.5_1').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article5')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -1124,10 +1282,26 @@ var article = function(){
 	})
 
 	$('.hot.7_5').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.7_5').removeClass('notDark').addClass('dark')
+		$('.hot.7_5').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article7')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -1140,10 +1314,26 @@ var article = function(){
 	})
 
 	$('.hot.7_4').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.7_4').removeClass('notDark').addClass('dark')
+		$('.hot.7_4').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article7')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -1156,10 +1346,26 @@ var article = function(){
 	})
 
 	$('.hot.7_3').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.7_3').removeClass('notDark').addClass('dark')
+		$('.hot.7_3').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article7')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -1173,10 +1379,26 @@ var article = function(){
 	})
 
 	$('.hot.7_2').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.7_2').removeClass('notDark').addClass('dark')
+		$('.hot.7_2').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article7')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -1191,10 +1413,26 @@ var article = function(){
 	})	
 
 	$('.hot.7_1').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.7_1').removeClass('notDark').addClass('dark')
+		$('.hot.7_1').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article7')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -1226,10 +1464,26 @@ var article = function(){
 	})
 
 	$('.hot.8_4').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.8_4').removeClass('notDark').addClass('dark')
+		$('.hot.8_4').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article8')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -1241,10 +1495,26 @@ var article = function(){
 		$('.story.8_4').addClass('active-story')
 	})
 	$('.hot.8_3').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.8_3').removeClass('notDark').addClass('dark')
+		$('.hot.8_3').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article8')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -1257,10 +1527,26 @@ var article = function(){
 	})
 
 	$('.hot.8_2').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.8_2').removeClass('notDark').addClass('dark')
+		$('.hot.8_2').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article8')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
@@ -1273,10 +1559,26 @@ var article = function(){
 	})
 
 	$('.hot.8_1').click(function(){
+		if ($('.toggleButton').hasClass('panelOut')) {
+
+			$('.timeline').animate({left:"-625px"},400);
+			$('.search').removeClass('searchOut').addClass('searchIn');
+			$('.toggleButton').removeClass('panelOut').addClass('panelIn')
+			$('.showAll').removeClass('showAllOut').addClass('showAllIn')
+			$('.expandHistory').removeClass('active-history')
+			$('.history').addClass('active-history')
+			$('.arrow-right').removeClass('appear')
+			$('.history').removeClass('expandHistory')
+		}
 		$('.hot').removeClass('dark').addClass('notDark')
 		$('.cold').removeClass('notDark').addClass('dark')
-		$(this).removeClass('notDark').addClass('dark')
-		$(this).next().removeClass('dark').addClass('notDark')
+		$('.hot.8_1').removeClass('notDark').addClass('dark')
+		$('.hot.8_1').next().removeClass('dark').addClass('notDark')
+
+		var currentArticle = $('.active-article')
+		var nextArticle = $('.article8')
+		currentArticle.removeClass('active-article')
+		nextArticle.addClass('active-article')
 		
 		$('.active-title').removeClass('active-title')
 		$('.active-publish').removeClass('active-publish')
