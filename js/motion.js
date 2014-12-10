@@ -55,108 +55,146 @@ var main = function(){
 			$('.topicLine').addClass('hideSth')
 			$('.item').addClass('hideSth')	
 			$('.businessNews').removeClass('hideSth')
+			$('.business').addClass('selectClick')
+			lastClick.removeClass('selectClick')
 		}
 		else if(thisClick.hasClass('lifestyle')){
 			$('.topicSlider').addClass('hideSth')
 			$('.topicLine').addClass('hideSth')
 			$('.item').addClass('hideSth')	
 			$('.lifestyleNews').removeClass('hideSth')
+			$('.lifestyle').addClass('selectClick')
+			lastClick.removeClass('selectClick')
 		}
 		else if(thisClick.hasClass('technology')){
 			$('.topicSlider').addClass('hideSth')
 			$('.topicLine').addClass('hideSth')
 			$('.item').addClass('hideSth')	
-			$('.technologyNews').removeClass('hideSth')	
+			$('.technologyNews').removeClass('hideSth')
+			$('.technology').addClass('selectClick')
+			lastClick.removeClass('selectClick')
 		}
 		else if(thisClick.hasClass('politics')){
 			$('.topicSlider').addClass('hideSth')
 			$('.topicLine').addClass('hideSth')
 			$('.item').addClass('hideSth')	
 			$('.politicNews').removeClass('hideSth')
+			$('.politics').addClass('selectClick')
+			lastClick.removeClass('selectClick')
+			$('.politics').addClass('selectClick')
+			lastClick.removeClass('selectClick')
 		}
 		else if(thisClick.hasClass('entertainment')){
 			$('.topicSlider').addClass('hideSth')
 			$('.topicLine').addClass('hideSth')
 			$('.item').addClass('hideSth')				
-			$('.entertainmentNews').removeClass('hideSth')	
+			$('.entertainmentNews').removeClass('hideSth')
+			$('.entertainment').addClass('selectClick')
+			lastClick.removeClass('selectClick')	
 		}
 		else if(thisClick.hasClass('sport')){
 			$('.topicSlider').addClass('hideSth')
 			$('.topicLine').addClass('hideSth')
 			$('.item').addClass('hideSth')
 			$('.sportNews').removeClass('hideSth')
+			$('.sport').addClass('selectClick')
+			lastClick.removeClass('selectClick')
 		}
 		else if(thisClick.hasClass('MH17')){
 			$('.trendingSlider').addClass('hideSth')
 			$('.trendingLine').addClass('hideSth')
 			$('.item').addClass('hideSth')	
-			$('.MH17News').removeClass('hideSth')			
+			$('.MH17News').removeClass('hideSth')
+			$('.MH17').addClass('selectClick')
+			lastClick.removeClass('selectClick')			
 		}
 		else if(thisClick.hasClass('yew')){
 			$('.trendingSlider').addClass('hideSth')
 			$('.trendingLine').addClass('hideSth')
 			$('.item').addClass('hideSth')	
-			$('.yewNews').removeClass('hideSth')			
+			$('.yewNews').removeClass('hideSth')
+			$('.yew').addClass('selectClick')
+			lastClick.removeClass('selectClick')			
 		}
 		else if(thisClick.hasClass('obama')){
 			$('.trendingSlider').addClass('hideSth')
 			$('.trendingLine').addClass('hideSth')
 			$('.item').addClass('hideSth')	
-			$('.obamaNews').removeClass('hideSth')			
+			$('.obamaNews').removeClass('hideSth')
+			$('.obama').addClass('selectClick')
+			lastClick.removeClass('selectClick')			
 		}
 		else if(thisClick.hasClass('jinping')){
 			$('.trendingSlider').addClass('hideSth')
 			$('.trendingLine').addClass('hideSth')
 			$('.item').addClass('hideSth')	
 			$('.jinpingNews').removeClass('hideSth')
+			$('.jinping').addClass('selectClick')
+			lastClick.removeClass('selectClick')
 		}
 		else if(thisClick.hasClass('loong')){
 			$('.trendingSlider').addClass('hideSth')
 			$('.trendingLine').addClass('hideSth')
 			$('.item').addClass('hideSth')	
-			$('.loongNews').removeClass('hideSth')			
+			$('.loongNews').removeClass('hideSth')
+			$('.loong').addClass('selectClick')
+			lastClick.removeClass('selectClick')			
 		}
 		else if(thisClick.hasClass('japan')){
 			$('.trendingSlider').addClass('hideSth')
 			$('.trendingLine').addClass('hideSth')
 			$('.item').addClass('hideSth')
-			$('.japanNews').removeClass('hideSth')			
+			$('.japanNews').removeClass('hideSth')
+			$('.japan').addClass('selectClick')
+			lastClick.removeClass('selectClick')			
 		}
 		else if(thisClick.hasClass('singapore')){
 			$('.locationSlider').addClass('hideSth')
 			$('.locationLine').addClass('hideSth')
 			$('.item').addClass('hideSth')	
-			$('.singaporeNews').removeClass('hideSth')			
+			$('.singaporeNews').removeClass('hideSth')
+			$('.singapore').addClass('selectClick')
+			lastClick.removeClass('selectClick')			
 		}
 		else if(thisClick.hasClass('pacific')){
 			$('.locationSlider').addClass('hideSth')
 			$('.locationLine').addClass('hideSth')
 			$('.item').addClass('hideSth')	
 			$('.pacificNews').removeClass('hideSth')
+			$('.pacific').addClass('selectClick')
+			lastClick.removeClass('selectClick')
 		}
 		else if(thisClick.hasClass('africa')){
 			$('.locationSlider').addClass('hideSth')
 			$('.locationLine').addClass('hideSth')
 			$('.item').addClass('hideSth')	
-			$('.africaNews').removeClass('hideSth')			
+			$('.africaNews').removeClass('hideSth')
+			$('.africa').addClass('selectClick')
+			lastClick.removeClass('selectClick')			
 		}
 		else if(thisClick.hasClass('america')){
 			$('.locationSlider').addClass('hideSth')
 			$('.locationLine').addClass('hideSth')
 			$('.item').addClass('hideSth')	
-			$('.americaNews').removeClass('hideSth')			
+			$('.americaNews').removeClass('hideSth')
+			$('.america').addClass('selectClick')
+			lastClick.removeClass('selectClick')			
 		}
 		else if(thisClick.hasClass('europe')){
 			$('.locationSlider').addClass('hideSth')
 			$('.locationLine').addClass('hideSth')
 			$('.item').addClass('hideSth')	
-			$('.europeNews').removeClass('hideSth')			
+			$('.europeNews').removeClass('hideSth')
+			$('.europe').addClass('selectClick')
+			lastClick.removeClass('selectClick')			
 		}
 		else if(thisClick.hasClass('east')){
 			$('.locationSlider').addClass('hideSth')
 			$('.locationLine').addClass('hideSth')
 			$('.item').addClass('hideSth')	
 			$('.eastNews').removeClass('hideSth')
+			$('.east').addClass('selectClick')
+			lastClick.removeClass('selectClick')
 		}
 		else if(thisClick.hasClass('show')){
 			$('.slider').removeClass('hideSth')
